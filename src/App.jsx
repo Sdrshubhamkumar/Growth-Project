@@ -1,12 +1,19 @@
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/home/home';
+import Profile from './pages/about/profile';
+import Navbar from './components/navbar/navbar';
 
 function App() {
-
   return (
-    <>
-      <h1 className="text-3xl font-bold underline text-red-600">Growth Project: Now tailwind css can be applied and used!</h1>
-    </>
-  )
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/history" element={<History />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
