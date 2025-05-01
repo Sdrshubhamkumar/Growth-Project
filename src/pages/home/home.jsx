@@ -1,9 +1,16 @@
 import React from 'react'
+import HomeBanner from './HomeBanner'
+import HomeContent from './HomeContent'
+import HomeSector from './HomeSector'
+import Footer from './Footer'
 
 function Home() {
   return (
     <div>
-        <h1 className='text-3xl'>Home Page</h1>
+        <HomeBanner/>
+        <HomeContent/>
+        <HomeSector/>
+        <Footer/>
     </div>
   )
 }
