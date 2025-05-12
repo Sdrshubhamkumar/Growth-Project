@@ -3,7 +3,7 @@ import Home from './pages/home/home';
 import Profile from './pages/about/profile';
 import Impact from './pages/Impact/impact';
 import Innovations from './pages/innovations/innovations';
-import Navbar from './components/navbar/navbar';
+import Navbar from './components/Navbar/Navbar';
  
 
 function App() {
