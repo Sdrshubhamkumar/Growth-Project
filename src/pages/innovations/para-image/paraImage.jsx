@@ -7,7 +7,7 @@ function paraImage(props) {
                 {props.images &&
                     props.images.map((image, index) => (
                         <div key={index}>
-                            <img src={image} alt="" />
+                            <img src={image} alt="" className='h-[250px] w-[280px]' />
                         </div>
                     ))
                 }
