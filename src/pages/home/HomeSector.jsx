@@ -108,7 +108,7 @@ const HomeSector = () => {
           />
         </div>
 
-        {/* 🌟 SpaCarousel added here after ASSOCIATIONS */}
+      
         <SectorCarousel/>
       </div>
     </div>
