@@ -21,7 +21,7 @@ function History() {
                             href="https://saath.org/"
                         >
                             Home
-                        </a> » Governance
+                        </a> » History
                     </p>
                 </div>
         {/* 1989 Section */}
