@@ -47,9 +47,11 @@ function Navbar() {
         {/* Desktop Nav */} 
         <ul className="lower-nav bg-white text-gray-500 font-bold h-12 w-4/5 m-auto flex justify-between items-center list-disc text-sm transition duration-250 max-[1025px]:hidden"> 
           <ListItem text="Home" /> 
-          <ListItem text="About" children={['Profile', 'History', 'Board of Trustees']} /> 
-          <ListItem text="Founders&Partners" /> 
-          <ListItem text="Sectors" children={['Education', 'Health', 'livelyhood', 'urbangovernance']} /> 
+
+          <ListItem text="About" children={['Profile', 'Board of Trustees','Governance','History','Saath Institutional Partners']} /> 
+          <ListItem text="Funders&Partners" /> 
+          <ListItem text="Sectors" children={['Education', 'Health', 'LivelyHoods', 'Urban Governance']} /> 
+
           <ListItem text="Awards" /> 
           <ListItem text="Resources" children={['Annual Reports', 'Newsletter', 'Intern Reports']} /> 
           <ListItem text="Get Involved" /> 
@@ -78,9 +80,11 @@ function Navbar() {
                   { label: 'Profile', path: '/profile' }, 
                   { label: 'History', path: '/history' }, 
                   { label: 'Board of Trustees', path: '/board-of-trustees' }, 
+                  { label: 'Governance', path: '/governance' }, 
+                  { label: 'Saath Institutional Partners', path: '/saath-institutional-partners' }, 
                 ]} 
               /> 
-              <MobileListItem text="Founders & Partners" /> 
+              <MobileListItem text="Funders & Partners" /> 
               <MobileListItem 
                 text="Sectors" 
                 children={[ 
