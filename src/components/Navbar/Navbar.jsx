@@ -49,7 +49,7 @@ function Navbar() {
           <ListItem text="Home" /> 
           <ListItem text="About" children={['Profile', 'History', 'Board of Trustees']} /> 
           <ListItem text="Founders&Partners" /> 
-          <ListItem text="Sectors" children={['Education', 'Health', 'LivelyHoods', 'Urban Governance']} /> 
+          <ListItem text="Sectors" children={['Education', 'Health', 'livelyhood', 'urbangovernance']} /> 
           <ListItem text="Awards" /> 
           <ListItem text="Resources" children={['Annual Reports', 'Newsletter', 'Intern Reports']} /> 
           <ListItem text="Get Involved" /> 
