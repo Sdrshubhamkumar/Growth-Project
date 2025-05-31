@@ -4,6 +4,7 @@ import HomeContent from './HomeContent'
 import HomeSector from './HomeSector'
 import Footer from './Footer'
 
+
 function Home() {
   return (
     <div>
@@ -11,6 +12,7 @@ function Home() {
         <HomeContent/>
         <HomeSector/>
         <Footer/>
+      
     </div>
   )
 }
