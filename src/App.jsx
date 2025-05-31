@@ -9,8 +9,7 @@ import BoardOfTrustees from './pages/about/boardOfTrustees';
 import Governance from './pages/about/governance';
 import SaathInstitutionalPartners from './pages/about/saathInstitutionalPartners';
 import FundersAndPartners from './pages/fundersAndPartners/fundersAndPartners';
-
- 
+import CSR from './pages/csr/csr'; 
 
 function App() {
   return (
@@ -24,6 +23,7 @@ function App() {
         <Route path="/governance" element={<Governance />} />
         <Route path="/saath-institutional-partners" element={<SaathInstitutionalPartners />} />
         <Route path="/Funders&Partners" element={<FundersAndPartners />} />
+        <Route path="/csr" element={<CSR />} />
         <Route path="/innovations" element={<Innovations />} />
         <Route path="/impact" element={<Impact />} />
        
