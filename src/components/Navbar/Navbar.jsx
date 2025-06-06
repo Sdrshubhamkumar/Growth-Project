@@ -53,8 +53,8 @@ function Navbar() {
           <ListItem text="Sectors" children={['Education', 'Health', 'LivelyHoods', 'Urban Governance']} /> 
 
           <ListItem text="Awards" /> 
-          <ListItem text="Resources" children={['Annual Reports', 'Newsletter', 'Intern Reports']} /> 
-          <ListItem text="Get Involved" /> 
+          <ListItem text="Resources" children={['AnnualReports', 'Publication', 'Intern Reports']} /> 
+          <ListItem text="GetInvolved" /> 
           <ListItem text="CSR" /> 
           <ListItem text="Innovations" /> 
           <ListItem text="Impact" /> 
@@ -98,8 +98,8 @@ function Navbar() {
               <MobileListItem 
                 text="Resources" 
                 children={[ 
-                  { label: 'Annual Reports', path: '/annual-reports' }, 
-                  { label: 'Newsletter', path: '/newsletter' }, 
+                  { label: 'AnnualReports', path: '/AnnualReports' }, 
+                  { label: 'Publication', path: '/Publication' }, 
                   { label: 'Intern Reports', path: '/intern-reports' }, 
                 ]} 
               /> 
