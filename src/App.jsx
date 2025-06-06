@@ -12,6 +12,8 @@ import SaathInstitutionalPartners from './pages/about/saathInstitutionalPartners
 
 // Other pages
 import FundersAndPartners from './pages/fundersAndPartners/fundersAndPartners';
+import CSR from './pages/csr/csr'; 
+
 import Innovations from './pages/innovations/innovations';
 
 // Sector pages
@@ -21,6 +23,7 @@ import LivelyHood from './pages/Sectors/LivelyHoods';
 import UrbanGovernance from './pages/Sectors/UrbanGovernance';
 import GetInvolved from './pages/GetInvolved/GetInvolved';
 import Publication from './pages/Resources/Publications';
+
 
 
 function App() {
@@ -34,6 +37,7 @@ function App() {
         <Route path="/board-of-trustees" element={<BoardOfTrustees />} />
         <Route path="/governance" element={<Governance />} />
         <Route path="/saath-institutional-partners" element={<SaathInstitutionalPartners />} />
+        <Route path="/csr" element={<CSR />} />
         <Route path="/funders-and-partners" element={<FundersAndPartners />} />
         <Route path="/innovations" element={<Innovations />} />
         <Route path="/impact" element={<Impact />} />
