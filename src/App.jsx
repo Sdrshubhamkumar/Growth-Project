@@ -8,13 +8,9 @@ import BoardOfTrustees from './pages/about/boardOfTrustees';
 import Governance from './pages/about/governance';
 import SaathInstitutionalPartners from './pages/about/saathInstitutionalPartners';
 import FundersAndPartners from './pages/fundersAndPartners/fundersAndPartners';
-
 import Publications from './pages/Resources/Publications';
 import AnnualReports from './pages/Resources/annualReports';
-
-
-
- 
+import InternReports from './pages/Resources/internReports';
 
 function App() {
   return (
@@ -31,7 +27,8 @@ function App() {
         <Route path="/Publications" element={<Publications />} />
         <Route path="/Annual-reports" element={<AnnualReports />} />
         <Route path="/impact" element={<Impact />} />
-        
+        <Route path="/intern-reports" element={<InternReports />} />
+        {/* Add more routes as needed */}
       </Routes>
     </Router>
   );
