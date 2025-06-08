@@ -1,8 +1,8 @@
 import React from 'react'
-import Picture1 from '../../Assets/rajedra-joshi.jpg';
-import Picture2 from '../../Assets/Dinesh-Awasthi.jpg';
-import Picture3 from '../../Assets/Karen.jpeg';
-import Picture4 from '../../Assets/Pallavi-Vyas.jpeg';
+import Picture1 from '../../assets/rajedra-joshi.jpg';
+import Picture2 from '../../assets/Dinesh-Awasthi.jpg';
+import Picture3 from '../../assets/Karen.jpeg';
+import Picture4 from '../../assets/Pallavi-Vyas.jpeg';
 
 function BoardOfTrustees() {
   return (
