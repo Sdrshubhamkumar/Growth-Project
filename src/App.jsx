@@ -9,6 +9,7 @@ import BoardOfTrustees from './pages/about/boardOfTrustees';
 import Governance from './pages/about/governance';
 import SaathInstitutionalPartners from './pages/about/saathInstitutionalPartners';
 import FundersAndPartners from './pages/FundersAndPartners/fundersAndPartners';
+
  
 
 function App() {
