@@ -1,5 +1,5 @@
 import React from 'react'
-import organogram from '../../Assets/Organogram.jpg';
+import organogram from '../../assets/Organogram.jpg';
 
 function Governance() {
   return (
