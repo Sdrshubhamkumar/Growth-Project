@@ -1,8 +1,8 @@
 import React from 'react'
-import Picture1 from '../../Assets/SL-Logo (1).png';
-import Picture2 from '../../Assets/Saath-Cooperative-1.png';
-import Picture3 from '../../Assets/Untitled-design-3-1.jpg';
-import Picture4 from '../../Assets/Saath-Facilitators.png';
+import Picture1 from '../../assets/SL-Logo (1).png';
+import Picture2 from '../../assets/Saath-Cooperative-1.png';
+import Picture3 from '../../assets/Untitled-design-3-1.jpg';
+import Picture4 from '../../assets/Saath-Facilitators.png';
 
 function SaathInstitutionalPartners() {
   return (
