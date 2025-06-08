@@ -8,7 +8,7 @@ import History from './pages/about/history';
 import BoardOfTrustees from './pages/about/boardOfTrustees';
 import Governance from './pages/about/governance';
 import SaathInstitutionalPartners from './pages/about/saathInstitutionalPartners';
-import FundersAndPartners from './pages/fundersAndPartners/fundersAndPartners';
+import FundersAndPartners from './pages/FundersAndPartners/funders&Partners';
  
 
 function App() {
