@@ -17,10 +17,11 @@ import Innovations from './pages/innovations/innovations';
 // Sector pages
 import Education from './pages/Sectors/Education';
 import Health from './pages/Sectors/Health';
-import LivelyHood from './pages/Sectors/LivelyHoods';
+import LivelyHoods from './pages/Sectors/LivelyHoods';
 import UrbanGovernance from './pages/Sectors/UrbanGovernance';
 import GetInvolved from './pages/GetInvolved/GetInvolved';
-import Publication from './pages/Resources/Publications';
+import Awards from './pages/Awards/Awards';
+
 
 
 function App() {
@@ -39,14 +40,15 @@ function App() {
         <Route path="/impact" element={<Impact />} />
         <Route path="/education" element={<Education />} />
         <Route path="/health" element={<Health />} />
-        <Route path="/livelyhood" element={<LivelyHood />} />
+        <Route path="/livelyhoods" element={<LivelyHoods />} />
         <Route path="/urbangovernance" element={<UrbanGovernance />} />
         <Route path="/education" element={<Education/>} />
         <Route path="/health" element={<Health/>} />
-        <Route path = "/livelyhood"element={<LivelyHood/>}/>
-        <Route path = "/urbangovernance"element={<UrbanGovernance/>}/>
+        {/* <Route path = "/livelyhood"element={<LivelyHood/>}/> */}
+        {/* <Route path = "/urbangovernance"element={<UrbanGovernance/>}/> */}
         <Route path = "/GetInvolved"element={<GetInvolved/>}/>
-        <Route path = "/Publication"element={<Publication/>}/>
+        <Route path = "/Awards"element={<Awards/>}/>
+        
         
       </Routes>
     </Router>
