@@ -10,7 +10,7 @@ import BoardOfTrustees from './pages/about/boardOfTrustees';
 import Governance from './pages/about/governance';
 import SaathInstitutionalPartners from './pages/about/saathInstitutionalPartners';
 // Other pages
-import FundersAndPartners from './pages/fundersAndPartners/fundersAndPartners';
+import FundersAndPartners from './pages/FundersAndPartners/fundersAndPartners';
 import Publications from './pages/Resources/Publications';
 import AnnualReports from './pages/Resources/annualReports';
 import CSR from './pages/csr/csr'; 
