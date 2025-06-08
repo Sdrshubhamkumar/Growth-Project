@@ -5,7 +5,7 @@ export default function HealthEnvironmentCard() {
        <>
       
       <div className="header pt-5 text-center h-25 w-full bg-[#6a5f97]">
-        <h1 className="text-4xl font-bold text-white">Education</h1>
+        <h1 className="text-4xl font-bold text-white">Health</h1>
       </div>
 
     <div className="bg-teal-900 text-white p-8 space-y-6 font-sans max-w-2xl mx-auto rounded-2xl shadow-lg">
