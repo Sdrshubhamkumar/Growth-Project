@@ -12,7 +12,7 @@ import SaathInstitutionalPartners from './pages/about/saathInstitutionalPartners
 // Other pages
 import FundersAndPartners from './pages/FundersAndPartners/fundersAndPartners';
 import Publications from './pages/Resources/Publications';
-import AnnualReports from './pages/Resources/annualReports';
+import AnnualReports from './pages/Resources/AnnualReports';
 import CSR from './pages/csr/csr'; 
 import Innovations from './pages/innovations/innovations';
 
