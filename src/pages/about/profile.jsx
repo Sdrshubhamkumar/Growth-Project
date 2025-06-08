@@ -28,7 +28,7 @@ function Profile() {
                 </div>
 
                 {/* Paragraphs */}
-                <p className="mb-6 leading-7 text-lg text-[#767676]s ">
+                <p className="mb-6 leading-7 text-lg text-[#767676] ">
                     Saath (which in Hindi/Gujarati means ‘together, co-operation, a collective or support’), founded in 1989, 
                     is an NGO in India registered as a Public Charitable Trust and is based in Ahmedabad, Gujarat. Saath closely 
                     works with the vulnerable communities and empowers the socially marginalized by providing them livelihood 
@@ -60,18 +60,33 @@ function Profile() {
                     latest being the India NGO Award 2014-15 in the Medium category.
                 </p>
 
+                <p className="mb-6 leading-7 text-lg text-[#767676]">
+                    Swikar Charitable Trust is a non-profit organization focused on empowering underprivileged communities through education, healthcare, skill development,
+                    livelihood, Disability and environmental
+                    initiatives. We are committed to enhancing
+                    the lives of the poor and needy by ensuring
+                    access to education, healthcare, sustainable
+                    livelihood opportunities, and environmental
+                    well-being..
+                </p>
+
                 {/* Vision Section */}
                 <h3 className="text-xl font-bold text-gray-800 mt-8 mb-2">Vision</h3>
                 <p className="mb-6 leading-7 text-lg text-[#767676]">
-                    Saath envisions inclusive and empowered communities and individuals.
+                    We envision a world where everyone has access
+                    to essentials, education, and opportunity—
+                    building a brighter future together with our
+                    donors, partners, and volunteers.
                 </p>
 
                 {/* Mission Section */}
                 <h3 className="text-xl font-bold text-gray-800 mt-8 mb-2">Mission</h3>
                 <p className="mb-6 leading-7 text-lg text-[#767676]">
-                    To make human settlements equitable living environments where all residents and vulnerable people have access 
-                    to health, education, essential infrastructure services and livelihood options, irrespective of their economic 
-                    and social status.
+                    We empower underprivileged communities
+                    through education, healthcare, survival skills,
+                    and sustainable development, creating lasting
+                    impact and improving lives.
+
                 </p>
 
                 {/* Approach Section */}
