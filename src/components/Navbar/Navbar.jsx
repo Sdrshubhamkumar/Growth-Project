@@ -11,7 +11,7 @@ function Navbar() {
   return ( 
     <div className="nav-container sticky top-0 z-50"> 
       {/* Upper Navigation */} 
-      <div className="upper-nav bg-white flex justify-between items-start relative right-7 sm:items-center pr-10 pl-25 py-4"> 
+      <div className="upper-nav bg-white flex justify-between items-start relative sm:items-center pr-10 pl-25 py-4"> 
         {/* Logo Section */} 
         <div className="logo cursor-pointer md:ml-0 ml-[-40px]"> 
           <img className="h-[90px]" src={logo} alt="logo" /> 
@@ -39,7 +39,6 @@ function Navbar() {
               <img src={menu} alt="menu" className="h-8 w-8" /> 
             </label> 
         </div> 
-
       </div> 
 
       {/* Lower Navigation */} 
@@ -47,11 +46,9 @@ function Navbar() {
         {/* Desktop Nav */} 
         <ul className="lower-nav bg-white text-gray-500 font-bold h-12 w-4/5 m-auto flex justify-between items-center list-disc text-sm transition duration-250 max-[1025px]:hidden"> 
           <ListItem text="Home" /> 
-
           <ListItem text="About" children={['Profile', 'Board of Trustees','Governance','History','Saath Institutional Partners']} /> 
           <ListItem text="Funders&Partners" /> 
           <ListItem text="Sectors" children={['Education', 'Health', 'LivelyHoods', 'Urban Governance']} /> 
-
           <ListItem text="Awards" /> 
           <ListItem text="Resources" children={['Annual Reports', 'Newsletter', 'Intern Reports']} /> 
           <ListItem text="Get Involved" /> 
