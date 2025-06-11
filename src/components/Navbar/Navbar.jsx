@@ -7,7 +7,7 @@ import close from '../../assets/close.png';
 import ListItem from './nav-list-item/navListItem';
 import MobileListItem from './nav-list-item/navListIItem(mobile)';
 
-function Navbar() { 
+function Navbar() {
   return ( 
     <div className="nav-container sticky top-0 z-50"> 
       {/* Upper Navigation */} 
@@ -53,8 +53,10 @@ function Navbar() {
           <ListItem text="Sectors" children={['Education', 'Health', 'LivelyHoods', 'UrbanGovernance']} /> 
 
           <ListItem text="Awards" /> 
+
           <ListItem text="Resources" children={['AnnualReports', 'Publication', 'Intern Reports']} /> 
           <ListItem text="GetInvolved" /> 
+
           <ListItem text="CSR" /> 
           <ListItem text="Innovations" /> 
           <ListItem text="Impact" /> 
@@ -97,9 +99,10 @@ function Navbar() {
               <MobileListItem text="Awards" /> 
               <MobileListItem 
                 text="Resources" 
-                children={[ 
+                children={[
                   { label: 'AnnualReports', path: '/AnnualReports' }, 
                   { label: 'Publication', path: '/Publication' }, 
+
                   { label: 'Intern Reports', path: '/intern-reports' }, 
                 ]} 
               /> 
