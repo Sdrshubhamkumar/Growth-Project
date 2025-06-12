@@ -51,7 +51,7 @@ function Navbar() {
           <ListItem text="Sectors" children={['Education', 'Health', 'LivelyHoods', 'Urban Governance']} /> 
           <ListItem text="Awards" /> 
 
-          <ListItem text="Resources" children={['AnnualReports', 'Publication', 'Intern Reports']} /> 
+          <ListItem text="Resources" children={['Annual Reports', 'Publications', 'Intern Reports']} /> 
           <ListItem text="GetInvolved" /> 
 
           <ListItem text="CSR" /> 
