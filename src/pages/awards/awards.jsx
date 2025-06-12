@@ -1,5 +1,5 @@
 import React from 'react';
-import ab from '../../assets/ab.jpg';
+import ap from '../../assets/ap.jpg';
 
 const Awards = () => {
   return (
@@ -8,7 +8,7 @@ const Awards = () => {
       <header
         className="relative h-80 bg-cover bg-center flex items-center justify-center"
         style={{
-          backgroundImage: `url(${ab})`,
+          backgroundImage: `url(${ap})`,
         }}
       >
         <div className="absolute inset-0 bg-blue-900 bg-opacity-60" />
