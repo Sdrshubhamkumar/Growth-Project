@@ -1,14 +1,36 @@
+
 import React from 'react';
-import ap from '../../assets/ap.jpg';
+import ab from '../../assets/ab.jpg';
+import { useState } from 'react';
 
 const Awards = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const testimonials = [
+    {
+      text: "Saath's awards validate the hope and future they bring to our community.",
+      author: "— Meena, Community Member",
+    },
+    {
+      text: "Each recognition strengthens our resolve to empower more women and children.",
+      author: "— Rakesh, Saath Team Member",
+    },
+    {
+      text: "I am proud to support an organization whose impact is seen and celebrated worldwide.",
+      author: "— Priya, Donor",
+    },
+  ];
+
+  const next = () => setCurrentIndex((currentIndex + 1) % testimonials.length);
+  const prev = () => setCurrentIndex((currentIndex - 1 + testimonials.length) % testimonials.length);
+
   return (
+
     <div className="font-sans bg-white text-gray-800">
       
       <header
         className="relative h-80 bg-cover bg-center flex items-center justify-center"
         style={{
-          backgroundImage: `url(${ap})`,
+          backgroundImage: `url(${ab})`,
         }}
       >
         <div className="absolute inset-0 bg-blue-900 bg-opacity-60" />
@@ -16,94 +38,98 @@ const Awards = () => {
           <h1 className="text-4xl font-bold text-white mb-2">
             Recognized for <span className="text-yellow-400">Creating Change</span>, One Life at a Time
           </h1>
-          <p className="text-lg text-white max-w-2xl mx-auto">
+          <p className="text-lg font-light">
             Over the years, Saath has been honored for its commitment to equity, empowerment, and inclusive development.
           </p>
         </div>
       </header>
 
-
-
-      {/* Awards Cards */}
-      <section className="py-12 px-4 max-w-6xl mx-auto text-center">
-        <h2 className="text-2xl font-semibold mb-6">Our Awards & Recognitions</h2>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {/* Awards Grid */}
+      <section className="max-w-6xl mx-auto py-10 px-5">
+        <h2 className="text-2xl font-semibold text-center text-[#2c3e50] mb-8">Our Awards & Recognitions</h2>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {[
             {
-              year: '2023',
+              img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/UN-HABITAT_logo.svg/1024px-UN-HABITAT_logo.svg.png',
               title: 'UN-HABITAT Best Practices Award',
-              desc: 'Recognized for innovative practices that significantly improved living conditions.',
+              year: '2006',
+              desc: 'Recognized for best practices in urban housing and slum redevelopment.',
             },
             {
-              year: '2021',
-              title: 'Global Award for Development',
-              desc: 'Awarded for excellence in community upliftment and sustainable change.',
-            },
-            {
-              year: '2020',
+              img: 'https://upload.wikimedia.org/wikipedia/commons/8/88/Social_Enterprise_Alliance_Logo.png',
               title: 'Social Enterprise Excellence',
-              desc: 'For demonstrating excellence in community-based entrepreneurship.',
+              year: '2015',
+              desc: 'Honored for innovative solutions in community development and sustainability.',
             },
-          ].map((award, idx) => (
-            <div
-              key={idx}
-              className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition"
-            >
-              <div className="text-sm text-indigo-600 font-medium">{award.year}</div>
-              <h3 className="text-lg font-semibold text-indigo-900 mt-1">{award.title}</h3>
-              <p className="text-sm text-gray-600 mt-2">{award.desc}</p>
+            {
+              img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Skoll_Foundation_Logo.png/600px-Skoll_Foundation_Logo.png',
+              title: 'Skoll Award for Social Entrepreneurship',
+              year: '2018',
+              desc: 'Recognized globally for social innovation and impactful entrepreneurship.',
+            },
+            {
+              img: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Nobel_Peace_Prize_logo.svg/1200px-Nobel_Peace_Prize_logo.svg.png',
+              title: 'Global Peace and Development Award',
+              year: '2022',
+              desc: 'Awarded for outstanding work in peace-building and community resilience.',
+            },
+          ].map((award, i) => (
+            <div key={i} className="bg-white rounded-lg shadow-md p-5 text-center hover:-translate-y-1 transition-transform">
+              <img src={award.img} alt={award.title} className="w-20 h-20 mb-4 object-contain filter grayscale hover:grayscale-0 transition" />
+              <h3 className="text-lg font-semibold text-[#1a237e] mb-1">{award.title}</h3>
+              <div className="text-sm text-gray-600 font-medium mb-2">{award.year}</div>
+              <p className="text-sm text-gray-700">{award.desc}</p>
             </div>
           ))}
         </div>
-
-        {/* Fourth card full width */}
-        <div className="mt-6 max-w-md mx-auto">
-          <div className="bg-white shadow-md rounded-lg p-6">
-            <div className="text-sm text-indigo-600 font-medium">2022</div>
-            <h3 className="text-lg font-semibold text-indigo-900 mt-1">Global Peace and Development Award</h3>
-            <p className="text-sm text-gray-600 mt-2">
-              Awarded for extraordinary impact in peace building and inclusive development.
-            </p>
-          </div>
-        </div>
       </section>
 
-      {/* Timeline Section */}
-      <section className="bg-blue-50 py-10 px-4 text-center">
-        <h2 className="text-xl font-bold text-blue-900 mb-6">Milestones & Recognitions Timeline</h2>
-        <ul className="space-y-4 text-left max-w-lg mx-auto">
+      {/* Timeline */}
+      <section className="bg-[#e8f0fe] py-10 px-5 rounded-lg max-w-3xl mx-auto my-14">
+        <h2 className="text-2xl font-semibold text-center text-[#2c3e50] mb-10">Milestones & Recognitions Timeline</h2>
+        <ul className="relative pl-8">
+          <div className="absolute left-3 top-0 bottom-0 w-[3px] bg-[#1a73e8] rounded-md"></div>
           {[
-            ['1998', 'Saath launched, laying the foundation for inclusive urban development.'],
-            ['2008', 'Received UN-HABITAT Best Practices Award.'],
-            ['2011', 'Recognized by Social Enterprise Alliance for ethical social impact.'],
-            ['2019', 'Awarded by the Social Return on Investment Network.'],
-            ['2020', 'Social Accountability Award for Rural Empowerment.'],
-            ['2022', 'Global Peace and Development Impact Award among a consortium of others.'],
+            ['1991', 'Saath is founded, laying the foundation for inclusive urban development.'],
+            ['2006', 'Received the UN-HABITAT Best Practices Award.'],
+            ['2015', 'Recognized by the Social Enterprise Alliance for excellence in social impact.'],
+            ['2018', 'Honored with the Skoll Award for Social Entrepreneurship.'],
+            ['2022', 'Global Peace and Development Award received for community resilience efforts.'],
           ].map(([year, text], i) => (
-            <li key={i} className="relative pl-6 border-l-4 border-blue-500">
-              <div className="absolute -left-3 top-1 w-4 h-4 bg-blue-700 rounded-full border-2 border-white shadow"></div>
-              <div className="text-sm font-semibold text-blue-800">{year}</div>
-              <p className="text-sm text-gray-700">{text}</p>
+            <li key={i} className="relative pl-5 mb-8">
+              <div className="absolute -left-[10px] top-1 w-3 h-3 rounded-full bg-[#1a73e8] border-4 border-white shadow-md"></div>
+              <div className="font-bold text-[#1a237e]">{year}</div>
+              <div className="text-gray-700">{text}</div>
             </li>
           ))}
         </ul>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-12 px-4 text-center">
-        <h2 className="text-xl font-semibold mb-4">Voices of Gratitude</h2>
-        <blockquote className="italic text-gray-600 max-w-2xl mx-auto mb-6">
-          "Each outreach validates the impact of actions they bring to community." – Meena, Community Member
-        </blockquote>
-        <div className="flex justify-center space-x-4">
-          <button className="w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-full">&larr;</button>
-          <button className="w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-full">&rarr;</button>
+      {/* Testimonials */}
+      <section className="max-w-3xl mx-auto px-5 mt-16 mb-24">
+        <h2 className="text-2xl font-semibold text-center text-[#2c3e50] mb-10">Voices of Gratitude</h2>
+        <div className="overflow-hidden relative">
+          <div
+            className="flex transition-transform duration-500"
+            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+          >
+            {testimonials.map((item, i) => (
+              <div key={i} className="min-w-full bg-white p-6 rounded-lg shadow-md text-center italic text-gray-600">
+                <p className="mb-4">"{item.text}"</p>
+                <div className="font-semibold not-italic text-[#1a237e]">{item.author}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="text-center mt-6">
+          <button onClick={prev} className="bg-[#1a73e8] text-white px-4 py-2 mx-2 rounded hover:bg-[#155ab5]">‹</button>
+          <button onClick={next} className="bg-[#1a73e8] text-white px-4 py-2 mx-2 rounded hover:bg-[#155ab5]">›</button>
         </div>
       </section>
 
-      {/* Footer Note */}
-      <footer className="bg-indigo-800 text-white py-4 text-center rounded-t-lg">
-        Every recognition is a reminder that our journey of creating lasting change continues. Thank you for being part of it.
+      {/* Footer Impact Note */}
+      <footer className="bg-[#1a237e] text-white text-center px-5 py-10 font-semibold rounded-lg shadow-lg max-w-3xl mx-auto mb-10">
+        <p>Every recognition is a reminder that our journey of creating lasting change continues. Thank you for being part of it.</p>
       </footer>
     </div>
   );
