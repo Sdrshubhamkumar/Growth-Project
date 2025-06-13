@@ -47,12 +47,12 @@ function Navbar() {
         <ul className="lower-nav bg-white text-gray-500 font-bold h-12 w-4/5 m-auto flex justify-between items-center list-disc text-sm transition duration-250 max-[1025px]:hidden"> 
           <ListItem text="Home" /> 
           <ListItem text="About" children={['Profile', 'Board of Trustees','Governance','History','Saath Institutional Partners']} /> 
-          <ListItem text="Funders&Partners" /> 
+          <ListItem text="Founders & Partners" /> 
           <ListItem text="Sectors" children={['Education', 'Health', 'LivelyHoods', 'Urban Governance']} /> 
           <ListItem text="Awards" /> 
 
           <ListItem text="Resources" children={['Annual Reports', 'Publications', 'Intern Reports']} /> 
-          <ListItem text="GetInvolved" /> 
+          <ListItem text="Get Involved" /> 
 
           <ListItem text="CSR" /> 
           <ListItem text="Innovations" /> 
@@ -83,7 +83,7 @@ function Navbar() {
                   { label: 'Saath Institutional Partners', path: '/saath-institutional-partners' }, 
                 ]} 
               /> 
-              <MobileListItem text="Funders & Partners" /> 
+              <MobileListItem text="Founders & Partners" /> 
               <MobileListItem 
                 text="Sectors" 
                 children={[ 
@@ -97,8 +97,8 @@ function Navbar() {
               <MobileListItem 
                 text="Resources" 
                 children={[
-                  { label: 'AnnualReports', path: '/AnnualReports' }, 
-                  { label: 'Publication', path: '/Publication' }, 
+                  { label: 'AnnualReports', path: '/annual-reports' }, 
+                  { label: 'Publication', path: '/publications' }, 
 
                   { label: 'Intern Reports', path: '/intern-reports' }, 
                 ]} 

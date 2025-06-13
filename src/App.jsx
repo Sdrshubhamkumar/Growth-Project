@@ -41,9 +41,9 @@ function App() {
         <Route path="/board-of-trustees" element={<BoardOfTrustees />} />
         <Route path="/governance" element={<Governance />} />
         <Route path="/saath-institutional-partners" element={<SaathInstitutionalPartners />} />
-        <Route path="/Funders&Partners" element={<FundersAndPartners />} />
-        <Route path="/Publications" element={<Publications />} />
-        <Route path="/Annual-reports" element={<AnnualReports />} />
+        <Route path="/founders-&-partners" element={<FundersAndPartners />} />
+        <Route path="/publications" element={<Publications />} />
+        <Route path="/annual-reports" element={<AnnualReports />} />
         <Route path="/impact" element={<Impact />} />
         <Route path="/intern-reports" element={<InternReports />} />
         <Route path="/csr" element={<CSR />} />
@@ -51,8 +51,8 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/health" element={<Health />} />
         <Route path="/livelyhoods" element={<LivelyHoods />} />
-        <Route path="/urbangovernance" element={<UrbanGovernance />} />
-        <Route path = "/GetInvolved"element={<GetInvolved/>}/>
+        <Route path="/urban-governance" element={<UrbanGovernance />} />
+        <Route path = "/get-involved"element={<GetInvolved/>}/>
         <Route path = "/Awards"element={<Awards/>}/>
       </Routes>
     </Router>
