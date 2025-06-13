@@ -1,17 +1,15 @@
 import path from "path";
 import react from "@vitejs/plugin-react";
-import tailwindcss from "@tailwindcss/vite"; // ✅ Add Tailwind plugin
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  plugins: [
-    tailwindcss(), // ✅ Include Tailwind
-    react()
-  ],
+  plugins: [react()],
   resolve: {
     alias: {
-      // eslint-disable-next-line no-undef
       "@": path.resolve(__dirname, "./src"),
     },
-  }
+  },
+  build: {
+    outDir: "dist",
+  },
 });
