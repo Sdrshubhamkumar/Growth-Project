@@ -11,7 +11,7 @@ function Navbar() {
   return ( 
     <div className="nav-container sticky top-0 z-50"> 
       {/* Upper Navigation */} 
-      <div className="upper-nav bg-white flex justify-between items-start relative sm:items-center pr-10 pl-25 py-4"> 
+      <div className="upper-nav bg-white flex justify-between items-start relative sm:items-center pl-10 pr-10 py-4"> 
         {/* Logo Section */} 
         <div className="logo cursor-pointer md:ml-0 ml-[-40px]"> 
           <img className="h-[90px]" src={logo} alt="logo" /> 
@@ -28,7 +28,7 @@ function Navbar() {
             <p>mail@saath.org</p> 
           </div> 
           <div> 
-            <button className="h-12 w-35 bg-[#eb2525] text-sm text-white rounded-sm cursor-pointer"> 
+            <button className="h-12 w-[125px] bg-[#eb2525] text-sm text-white rounded-sm cursor-pointer"> 
               DONATE NOW 
             </button> 
           </div> 
