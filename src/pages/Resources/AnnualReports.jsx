@@ -41,7 +41,7 @@ const reports = [
 
 const AnnualReports = () => {
   return (
-    <div className="min-h-screen bg-white py-10 px-6 ">
+    <div className="AnnualReports">
       <div className="bg-[#5A4E8C] text-white text-center py-6">
                 <h1 className="text-3xl font-bold">Annual Reports</h1>
             </div>
@@ -73,6 +73,10 @@ const AnnualReports = () => {
               backgroundPosition: "center",
             }}
           >
+            {/* Black Overlay */}
+            <div className="absolute inset-0 bg-black opacity-50"></div>
+            
+            {/* Content */}
             <div className="absolute inset-0  flex flex-col items-center justify-center px-3 text-white">
               <p className="text-sm font-semibold mb-2 text-center">
                 Annual Report<br />{report.year}

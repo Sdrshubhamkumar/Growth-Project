@@ -85,7 +85,7 @@ const publications = [
 
 const Publications = () => {
   return (
-    <div className="min-h-screen bg-white py-12 px-4">
+    <div className="publications">
       <div className="bg-[#5A4E8C] text-white text-center py-6">
                 <h1 className="text-3xl font-bold">Publications</h1>
             </div>
