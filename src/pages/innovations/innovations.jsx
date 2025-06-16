@@ -5,11 +5,11 @@ import image3 from '../../assets/innovation/img3.png'
 
 function innovations() {
     return (
-        <div>
-            <div className="header pt-5 text-center h-25 w-full bg-[#6a5f97]">
+        <div className='ml-[-30px]'>
+            <div className="header pt-5 pb-5 text-center h-25 w-full bg-[#6a5f97]">
                 <h1 className='text-4xl font-bold text-white'>Innovations</h1>
             </div>
-            <div className='text-container text-[#838383] p-20 pt-15 pb-15'>
+            <div className='text-container text-[#838383] p-20 pt-10 pb-10'>
                 <p className="mb-4">
                     At Swikar Charitable Trust, innovation is the engine driving our impact. We believe in designing practical, scalable solutions to real-world problems — led by empathy, backed by data, and driven by community needs.
                 </p>
@@ -36,7 +36,7 @@ function innovations() {
 
             <ParaImage className="md:grid-cols-4 sm:grid-cols-4 pt-0 pb-0" images={[image1, image2, image3]} />
 
-            <div className='text-container text-[#838383] p-20 pt-15 pb-15'>
+            <div className='text-container text-[#838383] p-20 pt-5 pb-15'>
                 <h2 className="text-2xl font-semibold mt-6 mb-4">Our Values</h2>
                 <p className="mb-4">
                     Every innovation we make reflects our core values: Integrity in bringing meaningful change, Innovation in how underserved communities view their potential, Equity in access, Eco Balance in every initiative, and Empowerment for future generations. Together, we turn challenges into opportunities, and ideas bloom into outcomes that were once only dreams.
