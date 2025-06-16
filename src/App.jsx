@@ -20,7 +20,7 @@ import Education from './pages/Sectors/Education';
 import Health from './pages/Sectors/Health';
 import LivelyHoods from './pages/Sectors/LivelyHoods';
 import UrbanGovernance from './pages/Sectors/UrbanGovernance';
-import GetInvolved from './pages/GetInvolved/getInvolved';
+import GetInvolved from './pages/GetInvolved/GetInvolved';
 import Awards from './pages/Awards/Awards';
 
 
