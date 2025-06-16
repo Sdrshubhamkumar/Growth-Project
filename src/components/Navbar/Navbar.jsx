@@ -106,7 +106,7 @@ function Navbar() {
                   { label: 'Intern Reports', path: '/intern-reports' }, 
                 ]} 
               /> 
-              <MobileListItem text="Get Involved" /> 
+              <MobileListItem text="GetInvolved" /> 
               <MobileListItem text="CSR" /> 
               <MobileListItem text="Innovations" /> 
               <MobileListItem text="Impact" /> 

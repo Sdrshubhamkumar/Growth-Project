@@ -10,7 +10,8 @@ const UrbanGovernance = () => {
         <h1 className="text-4xl font-bold text-white">Urban Governance</h1>
       </div>
 
-    <div className="bg-[#b33c1a] text-white p-8 space-y-6 w-full max-w-2xl mx-auto rounded-2xl shadow-lg">
+    <div className="bg-[#b33c1a] text-white p-8 space-y-6 w-full max-w-2xl mx-auto rounded-2xl shadow-lg mt-5">
+
       
       <div>
         <h2 className="font-bold text-white text-lg">Corporate</h2>
