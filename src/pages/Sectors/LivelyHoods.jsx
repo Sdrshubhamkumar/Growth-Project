@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function LivelyHood() {
+export default function LivelyHoods() {
   return (
     <>
     

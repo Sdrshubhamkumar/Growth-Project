@@ -1,6 +1,10 @@
 import React from 'react';
 // import '@fortawesome/fontawesome-free/css/all.min.css';
 import facebook from '../../assets/facebook.jpg';
+import  fix1 from '../../assets/fix1.png';
+import  fix2 from '../../assets/fix2.png';
+import  fix4 from '../../assets/fix4.png';
+import  instagramlogo from '../../assets/innovation/instagramlogo.png';
 
 const Footer = () => {
   return (
@@ -27,7 +31,7 @@ const Footer = () => {
               <div className="w-[350px] h-[155px]">
                 <img
                   alt="blog"
-                  src="https://saath.org/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-08-at-1.07.05-PM-2.jpeg"
+                  src={fix1}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -61,7 +65,7 @@ const Footer = () => {
               <div className="w-[350px] h-[155px]">
                 <img
                   alt="blog"
-                  src="https://saath.org/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-08-at-1.07.05-PM-2.jpeg"
+                  src={fix2}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -95,7 +99,7 @@ const Footer = () => {
               <div className="w-[350px] h-[155px]">
                 <img
                   alt="blog"
-                  src="https://saath.org/wp-content/uploads/2022/03/Kavya-Intern-2.jpg"
+                  src={fix4}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -163,7 +167,7 @@ const Footer = () => {
                 className="flex items-center bg-gray-200 p-16"
               >
                 <img
-                  src="https://saath.org/wp-content/uploads/2022/02/icons8-instagram-64-2.png"
+                  src={instagramlogo}
                   alt="Instagram"
                   className="w-14 h-14 mr-3"
                 />

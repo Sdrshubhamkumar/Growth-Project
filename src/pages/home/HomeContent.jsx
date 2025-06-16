@@ -29,11 +29,7 @@ const HomeContent = () => {
         <div className="flex-1">
           <div className="text-center text-4xl font-bold relative">
             <h2>About</h2>
-            <img
-              className="mx-auto mt-2"
-              src="https://saath.org/wp-content/themes/saath/images/heading-before.png"
-              alt="About-Saath"
-            />
+          
           </div>
 
           <div className="text-gray-600 mt-6 space-y-6 text-justify">
@@ -73,11 +69,7 @@ const HomeContent = () => {
        <div className="w-full lg:w-[360px] border border-gray-300">
           <div className="text-center  bg-[#5A4E8C] text-white  font-extrabold text-4xl uppercase">
             Highlights
-            <img
-              className="mx-auto mt-2"
-              src="https://saath.org/wp-content/themes/saath/images/heading-before.png"
-              alt="About-Saath"
-            />
+          
           </div>
 
           <div className="text-gray-600 m-5 space-y-6 text-justify">
