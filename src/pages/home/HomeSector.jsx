@@ -1,16 +1,19 @@
 import React from 'react';
 import SectorCarousel from './SectorCarousel'; // ✅ Make sure this import is correct (adjust path if needed)
+// import ay from '../../assets/ay.jpg';
+import img4 from '../../assets/impact/img4.png';
+import images from '../../assets/innovation/images.jpeg';
+import Urbancities from '../../assets/innovation/Urban-cities.jpg'; // Adjust the path if necessary
+import First from '../../assets/innovation/First.jpg'; // Adjust the path if necessary
+// import lineborder '../../assets/innovation/lineborder.avif'; // Adjust the path if necessary
+
 
 const HomeSector = () => {
   return (
     <div className="bg-gray-200 w-full">
       <div className="text-center text-2xl relative font-semibold mt-8">
         <h2>SECTORS</h2>
-        <img
-          className="mx-auto mt-2"
-          src="https://saath.org/wp-content/themes/saath/images/heading-before.png"
-          alt="About-Saath"
-        />
+       
       </div>
 
       <div className="mt-6">
@@ -20,7 +23,7 @@ const HomeSector = () => {
           <figure className="relative inline-block w-[250px]">
             <a href="https://saath.org/programs/integrated-area-development/">
               <img
-                src="https://saath.org/wp-content/uploads/2022/06/Integrated-Area-Development-3-300x225.jpg"
+                src={First  } 
                 alt="Integrated Area Development"
                 className="w-full border-[10px] border-gray-300 rounded"
               />
@@ -38,7 +41,7 @@ const HomeSector = () => {
           <figure className="relative inline-block w-[250px]">
             <a href="https://saath.org/programs/education/">
               <img
-                src="https://saath.org/wp-content/uploads/2022/06/Education-300x200.jpg"
+                src={img4}
                 alt="Education"
                 className="w-full border-[10px] border-gray-300 rounded"
               />
@@ -56,7 +59,7 @@ const HomeSector = () => {
           <figure className="relative inline-block w-[250px]">
             <a href="https://saath.org/programs/livelihood/">
               <img
-                src="https://saath.org/wp-content/uploads/2022/06/Livelihood-300x200.jpg"
+                src={images}
                 alt="Livelihoods"
                 className="w-full border-[10px] border-gray-300 rounded"
               />
@@ -74,7 +77,7 @@ const HomeSector = () => {
           <figure className="relative inline-block w-[250px]">
             <a href="https://saath.org/programs/urban-governance/">
               <img
-                src="https://saath.org/wp-content/uploads/2016/07/samaveshi-shaher-program-300x200.jpg"
+                src={Urbancities}
                 alt="Urban Governance"
                 className="w-full border-[10px] border-gray-300 rounded"
               />
@@ -101,11 +104,7 @@ const HomeSector = () => {
         {/* ASSOCIATIONS Heading */}
         <div className="text-center text-4xl relative font-bold mt-8">
           <h2>ASSOCIATIONS</h2>
-          <img
-            className="mx-auto mt-2"
-            src="https://saath.org/wp-content/themes/saath/images/heading-before.png"
-            alt="About-Saath"
-          />
+         
         </div>
 
       

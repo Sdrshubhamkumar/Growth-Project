@@ -1,3 +1,6 @@
+
+import React from 'react';
+import ab from '../../assets/ab.jpg';
 import { useState } from 'react';
 
 const Awards = () => {
@@ -21,13 +24,18 @@ const Awards = () => {
   const prev = () => setCurrentIndex((currentIndex - 1 + testimonials.length) % testimonials.length);
 
   return (
-    <div className="font-sans text-gray-800 bg-[#fefefe]">
-      {/* Hero Section */}
-      <header className="relative bg-cover bg-center h-[320px] flex items-center justify-center text-center text-white"
-        style={{ backgroundImage: `url('https://images.squarespace-cdn.com/content/v1/60ed073a33b5634c776f8355/dd825e7e-dd77-495b-a9a5-ee4a89d319bc/AdobeStock_383109571.jpeg?format=2500w')` }}>
-        <div className="absolute inset-0 bg-green bg-opacity-60 z-0"></div>
-        <div className="relative z-10 px-5 max-w-3xl">
-          <h1 className="text-4xl font-bold mb-2">
+
+    <div className="font-sans bg-white text-gray-800">
+      
+      <header
+        className="relative h-80 bg-cover bg-center flex items-center justify-center"
+        style={{
+          backgroundImage: `url(${ab})`,
+        }}
+      >
+        <div className="absolute inset-0 bg-blue-900 bg-opacity-60" />
+        <div className="relative z-10 text-center px-4">
+          <h1 className="text-4xl font-bold text-white mb-2">
             Recognized for <span className="text-yellow-400">Creating Change</span>, One Life at a Time
           </h1>
           <p className="text-lg font-light">
