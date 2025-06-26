@@ -56,7 +56,7 @@ function FundersAndPartners() {
                             className="text-blue-600 hover:text-blue-800" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            href="https://saath.org/"
+                            href="https://Swikar Charitable.org/"
                         >
                             Home
                         </a> » Funders & Partners
@@ -119,7 +119,7 @@ function FundersAndPartners() {
 
             {Array.from({ length: 1 }).map((_, index) => (
               <figure key={index} className="relative w-[250px] mb-6 pr-20">
-                <a href="https://saath.org/funders-partners/#">
+                <a href="https://Swikar Charitable.org/funders-partners/#">
                   <img
                     src={Picture4}
                     alt={`Sector ${index + 1}`}
@@ -163,7 +163,7 @@ function FundersAndPartners() {
 
             {Array.from({ length: 1 }).map((_, index) => (
               <figure key={index} className="relative w-[250px] mb-6 pr-20">
-                <a href="https://saath.org/funders-partners/#">
+                <a href="https://Swikar Charitable.org/funders-partners/#">
                   <img
                     src={Picture7}
                     alt={`Sector ${index + 1}`}
@@ -178,7 +178,7 @@ function FundersAndPartners() {
   
             {Array.from({ length: 1 }).map((_, index) => (
               <figure key={index} className="relative w-[250px] mb-6 pr-20 ">
-                <a href="https://saath.org/funders-partners/#">
+                <a href="https://Swikar Charitable.org/funders-partners/#">
                   <img
                     src={Picture8}
                     className="mx-auto rounded-lg shadow"
@@ -236,7 +236,7 @@ function FundersAndPartners() {
 
             {Array.from({ length: 1 }).map((_, index) => (
               <figure key={index} className="relative w-[250px] mb-6 pr-20 ">
-                <a href="https://www.giveindia.org/m-18-saath-initiatives-for-equity-in-development.aspx">
+                <a href="https://www.giveindia.org/m-18-Swikar Charitable-initiatives-for-equity-in-development.aspx">
                   <img
                     src={Picture12}
                     alt={`Sector ${index + 1}`}
@@ -266,7 +266,7 @@ function FundersAndPartners() {
 
             {Array.from({ length: 1 }).map((_, index) => (
               <figure key={index} className="relative w-[250px] mb-6 pr-20 ">
-                <a href="https://saath.org/funders-partners/skillmissionbihar.org">
+                <a href="https://Swikar Charitable.org/funders-partners/skillmissionbihar.org">
                   <img
                     src={Picture14}
                     alt={`Sector ${index + 1}`}
@@ -581,7 +581,7 @@ function FundersAndPartners() {
 
             {Array.from({ length: 1 }).map((_, index) => (
               <figure key={index} className="relative w-[250px] mb-6 pr-20 ">
-                <a href="https://saath.org/funders-partners/www.pwc.com">
+                <a href="https://Swikar Charitable.org/funders-partners/www.pwc.com">
                   <img
                     src=    {Picture35}
                     alt={`Sector ${index + 1}`}

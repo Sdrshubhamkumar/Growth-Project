@@ -23,7 +23,7 @@ function BoardOfTrustees() {
                             className="text-blue-600 hover:text-blue-800" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            href="https://saath.org/"
+                            href="https://Swikar Charitable.org/"
                         >
                             Home
                         </a> » Board of Trustees
@@ -37,9 +37,9 @@ function BoardOfTrustees() {
                         <img className="w-full h-auto rounded-lg" src={Picture1} alt="Rajendra Joshi" />
                         <div className="md:col-span-2">
                             <h3 className="text-xl font-bold text-gray-800">Mr. Rajendra Joshi</h3>
-                            <p className="text-gray-700 font-semibold">Founder and Managing Trustee of Saath</p>
+                            <p className="text-gray-700 font-semibold">Founder and Managing Trustee of Swikar Charitable</p>
                             <p className="text-[#767676] mt-2">
-                                Rajendra Joshi is the founder and now, Managing Trustee of SAATH. He has initiated and developed the Integrated Slum Development Program, written and published papers on recycling of construction material, pro-poor accountability in WATSAN and on Integrated Slum Development. 
+                                Rajendra Joshi is the founder and now, Managing Trustee of Swikar Charitable. He has initiated and developed the Integrated Slum Development Program, written and published papers on recycling of construction material, pro-poor accountability in WATSAN and on Integrated Slum Development. 
                                 He has received the Schwab Social Entrepreneur of the Year Award for 2009, Nagrikta Puraskar in 2004 by the Ahmedabad Management Association, has been a finalist for Social Entrepreneur of the Year Award 2007 by the UNDP, CII, Schwab and Khemka Foundation; 
                                 Listed amongst 50 “Pioneers of Change” by India Today in July 2008; is an Ashoka Fellow, September 2008; and was awarded the Karmaveer Puraskar, by iCONGO, as a Real Wealth Creator for the communities on the 26th November, 2008.
                             </p>

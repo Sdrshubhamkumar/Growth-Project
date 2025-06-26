@@ -23,7 +23,7 @@ const InternReports = () => {
         <div className="container mx-auto px-6">
           <h1 className="text-4xl font-bold">Intern Reports</h1>
           <p className="text-lg mt-2">
-            Insights and experiences from our interns – showcasing learning, impact, and growth at SAATH.
+            Insights and experiences from our interns – showcasing learning, impact, and growth at Swikar Charitable.
           </p>
         </div>
       </header>
@@ -35,7 +35,7 @@ const InternReports = () => {
                             className="text-blue-600 hover:text-blue-800" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            href="https://saath.org/"
+                            href="https://Swikar Charitable.org/"
                         >
                             Home
                         </a> » Intern Reports

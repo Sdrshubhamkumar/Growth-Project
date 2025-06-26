@@ -7,10 +7,10 @@ import Navbar from './components/Navbar/Navbar'; // Use consistent capitalizatio
 import History from './pages/about/history';
 import BoardOfTrustees from './pages/about/boardOfTrustees';
 import Governance from './pages/about/governance';
-import SaathInstitutionalPartners from './pages/about/saathInstitutionalPartners';
+import SwikarCharitableInstitutionalPartners from './pages/about/SwikarCharitableInstitutionalPartners';
 // Other pages
 import FundersAndPartners from './pages/FundersAndPartners/fundersAndPartners';
-import Publications from './pages/Resources/Publications';
+// import Publications from './pages/Resources/Publications';
 
 import AnnualReports from './pages/Resources/AnnualReports';
 
@@ -23,9 +23,9 @@ import Innovations from './pages/innovations/innovations';
 import Education from './pages/Sectors/Education';
 import Health from './pages/Sectors/Health';
 import LivelyHoods from './pages/Sectors/LivelyHoods';
-import UrbanGovernance from './pages/Sectors/UrbanGovernance';
+// import UrbanGovernance from './pages/Sectors/UrbanGovernance';
 import GetInvolved from './pages/GetInvolved/GetInvolved';
-import Awards from './pages/Awards/Awards';
+// import Awards from './pages/Awards/Awards';
 
 
 
@@ -40,9 +40,9 @@ function App() {
         <Route path="/history" element={<History />} />
         <Route path="/board-of-trustees" element={<BoardOfTrustees />} />
         <Route path="/governance" element={<Governance />} />
-        <Route path="/saath-institutional-partners" element={<SaathInstitutionalPartners />} />
+        <Route path="/Swikar-Charitable-Institutional-Partners" element={<SwikarCharitableInstitutionalPartners/>} />
         <Route path="/founders-&-partners" element={<FundersAndPartners />} />
-        <Route path="/publications" element={<Publications />} />
+        {/* <Route path="/publications" element={<Publications />} /> */}
         <Route path="/annual-reports" element={<AnnualReports />} />
         <Route path="/impact" element={<Impact />} />
         <Route path="/intern-reports" element={<InternReports />} />
@@ -51,9 +51,9 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/health" element={<Health />} />
         <Route path="/livelyhoods" element={<LivelyHoods />} />
-        <Route path="/urban-governance" element={<UrbanGovernance />} />
+        {/* <Route path="/urban-governance" element={<UrbanGovernance />} /> */}
         <Route path = "/get-involved"element={<GetInvolved/>}/>
-        <Route path = "/Awards"element={<Awards/>}/>
+        {/* <Route path = "/Awards"element={<Awards/>}/> */}
       </Routes>
     </Router>
   );
