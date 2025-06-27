@@ -5,11 +5,11 @@ import Impact from './pages/Impact/impact';
 import Navbar from './components/Navbar/Navbar'; // Use consistent capitalization
 // About pages
 import History from './pages/about/history';
-import BoardOfTrustees from './pages/about/boardOfTrustees';
+// import BoardOfTrustees from './pages/about/boardOfTrustees';
 import Governance from './pages/about/governance';
 import SwikarCharitableInstitutionalPartners from './pages/about/SwikarCharitableInstitutionalPartners';
 // Other pages
-import FundersAndPartners from './pages/FundersAndPartners/fundersAndPartners';
+// import FundersAndPartners from './pages/FundersAndPartners/fundersAndPartners';
 // import Publications from './pages/Resources/Publications';
 
 import AnnualReports from './pages/Resources/AnnualReports';
@@ -38,10 +38,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/history" element={<History />} />
-        <Route path="/board-of-trustees" element={<BoardOfTrustees />} />
+        {/* <Route path="/board-of-trustees" element={<BoardOfTrustees />} /> */}
         <Route path="/governance" element={<Governance />} />
         <Route path="/Swikar-Charitable-Institutional-Partners" element={<SwikarCharitableInstitutionalPartners/>} />
-        <Route path="/founders-&-partners" element={<FundersAndPartners />} />
+        {/* <Route path="/founders-&-partners" element={<FundersAndPartners />} /> */}
         {/* <Route path="/publications" element={<Publications />} /> */}
         <Route path="/annual-reports" element={<AnnualReports />} />
         <Route path="/impact" element={<Impact />} />
