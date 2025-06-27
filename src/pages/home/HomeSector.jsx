@@ -21,7 +21,7 @@ const HomeSector = () => {
 
           {/* Sector 1 */}
           <figure className="relative inline-block w-[250px]">
-            <a href="https://saath.org/programs/integrated-area-development/">
+            <a href="https://Swikar Charitable.org/programs/integrated-area-development/">
               <img
                 src={First  } 
                 alt="Integrated Area Development"
@@ -30,7 +30,7 @@ const HomeSector = () => {
             </a>
             <figcaption className="absolute bottom-2 left-2 right-2 bg-purple-800/65 text-white text-center p-2 text-sm">
               <h3>
-                <a href="https://saath.org/programs/integrated-area-development/">
+                <a href="https://Swikar Charitable.org/programs/integrated-area-development/">
                   Integrated Area Development
                 </a>
               </h3>
@@ -39,7 +39,7 @@ const HomeSector = () => {
 
           {/* Sector 2 */}
           <figure className="relative inline-block w-[250px]">
-            <a href="https://saath.org/programs/education/">
+            <a href="https://Swikar Charitable.org/programs/education/">
               <img
                 src={img4}
                 alt="Education"
@@ -48,7 +48,7 @@ const HomeSector = () => {
             </a>
             <figcaption className="absolute bottom-2 left-2 right-2 bg-purple-800/65 text-white text-center p-2 text-sm">
               <h3>
-                <a href="https://saath.org/programs/education/">
+                <a href="https://Swikar Charitable.org/programs/education/">
                   Education
                 </a>
               </h3>
@@ -57,7 +57,7 @@ const HomeSector = () => {
 
           {/* Sector 3 */}
           <figure className="relative inline-block w-[250px]">
-            <a href="https://saath.org/programs/livelihood/">
+            <a href="https://Swikar Charitable.org/programs/livelihood/">
               <img
                 src={images}
                 alt="Livelihoods"
@@ -66,7 +66,7 @@ const HomeSector = () => {
             </a>
             <figcaption className="absolute bottom-2 left-2 right-2 bg-purple-800/65 text-white text-center p-2 text-sm">
               <h3>
-                <a href="https://saath.org/programs/livelihood/">
+                <a href="https://Swikar Charitable.org/programs/livelihood/">
                   Livelihoods
                 </a>
               </h3>
@@ -75,7 +75,7 @@ const HomeSector = () => {
 
           {/* Sector 4 */}
           <figure className="relative inline-block w-[250px]">
-            <a href="https://saath.org/programs/urban-governance/">
+            <a href="https://Swikar Charitable.org/programs/urban-governance/">
               <img
                 src={Urbancities}
                 alt="Urban Governance"
@@ -84,7 +84,7 @@ const HomeSector = () => {
             </a>
             <figcaption className="absolute bottom-2 left-2 right-2 bg-purple-800/65 text-white text-center p-2 text-sm">
               <h3>
-                <a href="https://saath.org/programs/urban-governance/">
+                <a href="https://Swikar Charitable.org/programs/urban-governance/">
                   Urban Governance
                 </a>
               </h3>
@@ -94,7 +94,7 @@ const HomeSector = () => {
 
         <div className="text-center my-12">
           <a
-            href="https://saath.org/profile/"
+            href="https://Swikar Charitable.org/profile/"
             className="bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-700 transition"
           >
             View More

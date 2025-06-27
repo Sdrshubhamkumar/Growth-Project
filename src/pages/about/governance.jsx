@@ -19,7 +19,7 @@ function Governance() {
                             className="text-blue-600 hover:text-blue-800" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            href="https://saath.org/"
+                            href="https://Swikar Charitable.org/"
                         >
                             Home
                         </a> » Governance
@@ -28,11 +28,11 @@ function Governance() {
 
                 {/* Description Section */}
                 <p className="mb-6 leading-7 text-lg text-[#767676]">
-                    The SAATH Board is made up of experts in the field of urban planners, rural management, environmental management, research, 
+                    The Swikar Charitable Board is made up of experts in the field of urban planners, rural management, environmental management, research, 
                     community mobilisation, judiciary experience, public policy and urban governance. The Board plays an advisory, facilitative 
                     and supportive role within the organization. They participate in its Organizational Development processes, governance, 
-                    training, financial management, networking for SAATH, operational management and resource mobilisation efforts. Board members 
-                    have been an integral part of the re-visioning process and also are Brand Ambassadors for Saath’s work.
+                    training, financial management, networking for Swikar Charitable, operational management and resource mobilisation efforts. Board members 
+                    have been an integral part of the re-visioning process and also are Brand Ambassadors for Swikar Charitable’s work.
                 </p>
                 
                 <p className="mb-6 leading-7 text-lg text-[#767676]">
@@ -45,12 +45,12 @@ function Governance() {
 
                 <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">Advisors</h3>
                 <p className="mb-6 leading-7 text-lg text-[#767676]">
-                    Mr. Gagan Sethi and Ms. Gazala Paul are Advisors to the Saath Board.
+                    Mr. Gagan Sethi and Ms. Gazala Paul are Advisors to the Swikar Charitable Board.
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">Human Resources</h3>
                 <p className="mb-6 leading-7 text-lg text-[#767676]">
-                    SAATH has a well-documented HR policy that was revised in the past year through a process of consultation with project and programme teams, 
+                    Swikar Charitable has a well-documented HR policy that was revised in the past year through a process of consultation with project and programme teams, 
                     Strategic Management.
                 </p>
 
@@ -79,9 +79,9 @@ function Governance() {
                     </li>
                 </ul>
 
-                <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">Policies at Saath</h3>
+                <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">Policies at Swikar Charitable</h3>
                 <p className="mb-6 leading-7 text-lg text-[#767676]">
-                    The Policies and practices of Saath are a working formulation, collectively decided for smooth functioning of the organization and also to meet the 
+                    The Policies and practices of Swikar Charitable are a working formulation, collectively decided for smooth functioning of the organization and also to meet the 
                     aspirations of the staff to meet social obligations. It provides a framework for management of human resources, guidelines for various procedures 
                     along with rules and regulations.
                 </p>
@@ -104,7 +104,7 @@ function Governance() {
                     <li>Gender Policy</li>
                     <li>Women Allowance</li>
                     <li>Conflict of Interest Policy</li>
-                    <li>Saath Finance Protocol</li>
+                    <li>Swikar Charitable Finance Protocol</li>
                     <li>Rotation Policy</li>
                     <li>Managing Trustee’s Role and Responsibility</li>
                 </ol>
