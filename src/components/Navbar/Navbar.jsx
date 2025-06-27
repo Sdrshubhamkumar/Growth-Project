@@ -21,11 +21,11 @@ function Navbar() {
         <div className="navbar-list flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-0"> 
           <div className="group flex items-center sm:mr-6"> 
             <img className="mr-2" src={phone} alt="phone" /> 
-            <p>079-35164684</p> 
+            <p>7676651025</p> 
           </div> 
           <div className="group flex items-center sm:mr-6"> 
             <img className="mr-2" src={email} alt="email" /> 
-            <p>mail@saath.org</p> 
+            <p>Info@swikarcharitabletrust.org</p> 
           </div> 
           <div> 
             <button className="h-12 w-[125px] bg-[#eb2525] text-sm text-white rounded-sm cursor-pointer"> 
@@ -46,7 +46,7 @@ function Navbar() {
         {/* Desktop Nav */} 
         <ul className="lower-nav bg-white text-gray-500 font-bold h-12 w-4/5 m-auto flex justify-between items-center list-disc text-sm transition duration-250 max-[1025px]:hidden"> 
           <ListItem text="Home" /> 
-          <ListItem text="About" children={['Profile', 'Board of Trustees','Governance','History','Saath Institutional Partners']} /> 
+          <ListItem text="About" children={['Profile', 'Board of Trustees','Governance','History','Swikar Charitable Institutional Partners']} /> 
           <ListItem text="Founders & Partners" /> 
           <ListItem text="Sectors" children={['Education', 'Health', 'LivelyHoods', 'Urban Governance']} /> 
           <ListItem text="Awards" /> 
@@ -80,7 +80,7 @@ function Navbar() {
                   { label: 'History', path: '/history' }, 
                   { label: 'Board of Trustees', path: '/board-of-trustees' }, 
                   { label: 'Governance', path: '/governance' }, 
-                  { label: 'Saath Institutional Partners', path: '/saath-institutional-partners' }, 
+                  { label: 'Swikar Charitable Institutional Partners', path: '/Swikar Charitable Institutional Partners' }, 
                 ]} 
               /> 
               <MobileListItem text="Founders & Partners" /> 
@@ -103,7 +103,7 @@ function Navbar() {
                   { label: 'Intern Reports', path: '/intern-reports' }, 
                 ]} 
               /> 
-              <MobileListItem text="Get Involved" /> 
+              <MobileListItem text="GetInvolved" /> 
               <MobileListItem text="CSR" /> 
               <MobileListItem text="Innovations" /> 
               <MobileListItem text="Impact" /> 

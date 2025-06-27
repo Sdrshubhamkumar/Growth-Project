@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import SaathBannersWebsite2 from '../../assets/Saath-banners-Website-2.png';
-import SaathBannersWebsite3 from '../../assets/Saath-banners-Website-3.png';
+import SwikarWebsite2 from '../../assets/SwikarWebsite2.png';
+// import SwikarWebsite3 from '../../assets/SwikarWebsite3.png';
 import HELPSUPPORTDAILYWEAGEARNERS4 from '../../assets/HELP_SUPPORT-DAILY-WAGE-EARNERS-4.png';
 import HELPSUPPORTDAILYWEAGEARNERS8 from '../../assets/HELP_SUPPORT-DAILY-WAGE-EARNERS-8.png';
 
@@ -9,8 +9,8 @@ const HomeBanner = () => {
   const [index, setIndex] = useState(0);
 
   const data = [
-    SaathBannersWebsite2,
-    SaathBannersWebsite3,
+    SwikarWebsite2,
+    // SwikarWebsite3,
     HELPSUPPORTDAILYWEAGEARNERS4,
     HELPSUPPORTDAILYWEAGEARNERS8
   ];
@@ -36,7 +36,7 @@ const HomeBanner = () => {
     <img
       className="w-full h-full object-content object-center" 
       src={data[index]}
-      alt="Saath-Banner"
+      alt="Swikar Charitable-Banner"
     />
     <div className="absolute top-1/2 left-2 transform -translate-y-1/2">
       <button onClick={handlePrev} className="text-white text-5xl">{'<'}</button>

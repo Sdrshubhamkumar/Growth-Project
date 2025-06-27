@@ -1,16 +1,16 @@
 import React from 'react'
 import Picture1 from '../../assets/SL-Logo (1).png';
-import Picture2 from '../../assets/Saath-Cooperative-1.png';
+import Picture2 from '../../assets/Swikar Charitable-Cooperative-1.png';
 import Picture3 from '../../assets/Untitled-design-3-1.jpg';
-import Picture4 from '../../assets/Saath-Facilitators.png';
+import Picture4 from '../../assets/Swikar Charitable-Facilitators.png';
 
-function SaathInstitutionalPartners() {
+function SwikarCharitableInstitutionalPartners() {
   return (
     
-        <div className="saathinstitutionalpartners">
+        <div className="Swikar Charitableinstitutionalpartners">
       {/* Heading Section */}
       <div className="bg-[#5A4E8C] text-white text-center py-6">
-        <h1 className="text-3xl font-bold">Saath Institutional Partners</h1>
+        <h1 className="text-3xl font-bold">Swikar Charitable Institutional Partners</h1>
       </div>
 
       <div className="max-w-screen-lg mx-auto px-8 py-6 space-y-8">
@@ -21,10 +21,10 @@ function SaathInstitutionalPartners() {
                             className="text-blue-600 hover:text-blue-800" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            href="https://saath.org/"
+                            href="https://Swikar Charitable.org/"
                         >
                             Home
-                        </a> » Saath Institutional Partners
+                        </a> » Swikar Charitable Institutional Partners
 
                     </p>
                 </div>
@@ -35,22 +35,22 @@ function SaathInstitutionalPartners() {
           {/* Partner 1 */}
           <div className="text-center border-8 border-gray-300 rounded-lg shadow-md p-1">
             <figure className="text-center">
-              <a href="https://saath.org/saath-institutional-partners/saath-livelihood-services/">
+              <a href="https://Swikar Charitable.org/Swikar Charitable-institutional-partners/Swikar Charitable-livelihood-services/">
                 <img 
                   width="250" 
                   height="160" 
                   src={Picture1} 
-                  alt="Saath Livelihood Services" 
+                  alt="Swikar Charitable Livelihood Services" 
                   className="mx-auto rounded-lg shadow"
                 />
               </a>
               <figcaption className="mt-4">
                 <h3 className="text-lg font-bold">
                   <a 
-                    href="https://saath.org/saath-institutional-partners/saath-livelihood-services/" 
+                    href="https://Swikar Charitable.org/Swikar Charitable-institutional-partners/Swikar Charitable-livelihood-services/" 
                     className="text-blue-600 hover:text-blue-800"
                   >
-                    Saath Livelihood Services
+                    Swikar Charitable Livelihood Services
                   </a>
                 </h3>
               </figcaption>
@@ -60,22 +60,22 @@ function SaathInstitutionalPartners() {
           {/* Partner 2 */}
           <div className="text-center border-8 border-gray-300 rounded-lg shadow-md p-1">
             <figure className="text-center">
-              <a href="https://saath.org/saath-institutional-partners/the-saath-savings-and-credit-cooperative-society-ltd/">
+              <a href="https://Swikar Charitable.org/Swikar Charitable-institutional-partners/the-Swikar Charitable-savings-and-credit-cooperative-society-ltd/">
                 <img 
                   width="250" 
                   height="160" 
                   src={Picture2}
-                  alt="Saath Savings and Credit Cooperative Society" 
+                  alt="Swikar Charitable Savings and Credit Cooperative Society" 
                   className="mx-auto rounded-lg shadow"
                 />
               </a>
               <figcaption className="mt-4">
                 <h3 className="text-lg font-bold">
                   <a 
-                    href="https://saath.org/saath-institutional-partners/the-saath-savings-and-credit-cooperative-society-ltd/" 
+                    href="https://Swikar Charitable.org/Swikar Charitable-institutional-partners/the-Swikar Charitable-savings-and-credit-cooperative-society-ltd/" 
                     className="text-blue-600 hover:text-blue-800"
                   >
-                    The Saath Savings and Credit Cooperative Society Ltd.
+                    The Swikar Charitable Savings and Credit Cooperative Society Ltd.
                   </a>
                 </h3>
               </figcaption>
@@ -85,22 +85,22 @@ function SaathInstitutionalPartners() {
           {/* Partner 3 */}
           <div className="text-center border-8 border-gray-300 rounded-lg shadow-md p-1">
             <figure className="text-center">
-              <a href="https://saath.org/saath-institutional-partners/saath-mahila-savings-and-credit-cooperative-society-ltd/">
+              <a href="https://Swikar Charitable.org/Swikar Charitable-institutional-partners/Swikar Charitable-mahila-savings-and-credit-cooperative-society-ltd/">
                 <img 
                   width="250" 
                   height="160" 
                   src={Picture3}
-                  alt="Saath-Janvikas Multipurpose Cooperative Model" 
+                  alt="Swikar Charitable-Janvikas Multipurpose Cooperative Model" 
                   className="mx-auto rounded-lg shadow"
                 />
               </a>
               <figcaption className="mt-4">
                 <h3 className="text-lg font-bold">
                   <a 
-                    href="https://saath.org/saath-institutional-partners/saath-mahila-savings-and-credit-cooperative-society-ltd/" 
+                    href="https://Swikar Charitable.org/Swikar Charitable-institutional-partners/Swikar Charitable-mahila-savings-and-credit-cooperative-society-ltd/" 
                     className="text-blue-600 hover:text-blue-800"
                   >
-                    The Saath-Janvikas Multipurpose Cooperative Model (SJMPC)
+                    The Swikar Charitable-Janvikas Multipurpose Cooperative Model (SJMPC)
                   </a>
                 </h3>
               </figcaption>
@@ -110,22 +110,22 @@ function SaathInstitutionalPartners() {
           {/* Partner 4 - Positioned in the second row under Partner 2 */}
           <div className="text-center border-8 border-gray-300 rounded-lg shadow-md p-1">
             <figure className="text-center">
-              <a href="https://saath.org/saath-institutional-partners/saath-facilator-services/">
+              <a href="https://Swikar Charitable.org/Swikar Charitable-institutional-partners/Swikar Charitable-facilator-services/">
                 <img 
                   width="250" 
                   height="160" 
                   src={Picture4}
-                  alt="Saath Facilitators Pvt. Ltd." 
+                  alt="Swikar Charitable Facilitators Pvt. Ltd." 
                   className="mx-auto rounded-lg shadow"
                 />
               </a>
               <figcaption className="mt-4">
                 <h3 className="text-lg font-bold">
                   <a 
-                    href="https://saath.org/saath-institutional-partners/saath-facilator-services/" 
+                    href="https://Swikar Charitable.org/Swikar Charitable-institutional-partners/Swikar Charitable-facilator-services/" 
                     className="text-blue-600 hover:text-blue-800"
                   >
-                    Saath Facilitators Pvt. Ltd.
+                    Swikar Charitable Facilitators Pvt. Ltd.
                   </a>
                 </h3>
               </figcaption>
@@ -139,4 +139,4 @@ function SaathInstitutionalPartners() {
   )
 }
 
-export default SaathInstitutionalPartners
+export default SwikarCharitableInstitutionalPartners;

@@ -18,7 +18,7 @@ function History() {
                             className="text-blue-600 hover:text-blue-800" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            href="https://saath.org/"
+                            href="https://Swikar Charitable.org/"
                         >
                             Home
                         </a> » History
@@ -31,12 +31,12 @@ function History() {
             <div className="md:w-1/4 pr-6 mb-4 md:mb-0">
               <h2 className="font-extrabold text-gray-900 text-base md:text-lg mb-1">1989</h2>
               <div className="w-10 h-[2px] bg-[#6B5F8F] mb-2"></div>
-              <p className="text-gray-500 text-sm">Saath Established</p>
+              <p className="text-gray-500 text-sm">Swikar Charitable Established</p>
             </div>
             <ul className="md:w-3/4 text-gray-600 text-sm list-disc list-inside space-y-1">
-              <li>Saath registered as a Trust.</li>
+              <li>Swikar Charitable registered as a Trust.</li>
               <li>Integrated Slum Development Program (ISDP) conceptualized.</li>
-              <li>Saath Founders approached community to initiate youth activities.</li>
+              <li>Swikar Charitable Founders approached community to initiate youth activities.</li>
               <li>Conducted Social Animators course for slum youth.</li>
             </ul>
           </article>
@@ -78,7 +78,7 @@ function History() {
               <p className="text-gray-500 text-sm">Slum Networking Project</p>
             </div>
             <ul className="md:w-3/4 text-gray-600 text-sm list-disc list-inside space-y-1">
-              <li>SNP Initiated by Saath, Ahmedabad Municipal Corporation and Sharda Trust, First Pilot Project Implemented.</li>
+              <li>SNP Initiated by Swikar Charitable, Ahmedabad Municipal Corporation and Sharda Trust, First Pilot Project Implemented.</li>
               <li>Capacity building of local community associations.</li>
               <li>SNP pilot conducted in Sanjaynagar. CBO members got the opportunity to impart skills among the community and establish linkages with referral hospitals.</li>
             </ul>
@@ -121,7 +121,7 @@ function History() {
             </div>
             <ul className="md:w-3/4 text-gray-600 text-sm list-disc list-inside space-y-1">
               <li>CBO members actively involved in relief work during the earthquake in Kutch.</li>
-              <li>Saath covered 2204 households of 17 villages of Khadir and Rapar during the earthquake.</li>
+              <li>Swikar Charitable covered 2204 households of 17 villages of Khadir and Rapar during the earthquake.</li>
               <li>After rapid assessment, local groups were formed and given training for relief work.</li>
               <li>Successful Slum Electrification pilot program.</li>
             </ul>
@@ -131,13 +131,13 @@ function History() {
             <div className="md:w-1/4 pr-6 mb-4 md:mb-0">
               <h2 className="font-extrabold text-gray-900 text-base md:text-lg mb-1">2002</h2>
               <div className="w-10 h-[2px] bg-[#6B5F8F] mb-2"></div>
-              <p className="text-gray-500 text-sm">Communal Riots and Saath's Stand</p>
+              <p className="text-gray-500 text-sm">Communal Riots and Swikar Charitable's Stand</p>
             </div>
             <ul className="md:w-3/4 text-gray-600 text-sm list-disc list-inside space-y-1">
               <li>Participated in relief and rehabilitation work during communal riots across the city.</li>
               <li>Worked with riot-affected slum pockets for overall development and conflict resolution of vulnerable groups.</li>
               <li>In coordination with CBOs, participated in the Gujarat Harmony Project for reconstruction of houses.</li>
-              <li>Saath partnered with CBOs for undertaking research for the formulation of the Draft Gujarat State Urban Slum Policy and participatory poverty assessments.</li>
+              <li>Swikar Charitable partnered with CBOs for undertaking research for the formulation of the Draft Gujarat State Urban Slum Policy and participatory poverty assessments.</li>
               <li>Facilitated the registration of Sankalp Mitra Mandal–CBO in Sankalitnagar, Juhapura.</li>
             </ul>
           </article>
@@ -153,8 +153,8 @@ function History() {
               <li>Slum electrification scaled up in Juhapura area, covering 5000 households and subsequently across Ahmedabad.</li>
               <li>Partnered with Handicap International for participatory assessment of disabled persons in various towns of Gujarat.</li>
               <li>
-                Saath’s governance, financial, and management systems complied with global norms laid down by ‘Credibility Alliance’ and Give Foundation.
-                In a rating of 1342 NGOs by the Planning Commission of India, Saath ranked 281st in India and 7th among 50 in Gujarat.
+                Swikar Charitable’s governance, financial, and management systems complied with global norms laid down by ‘Credibility Alliance’ and Give Foundation.
+                In a rating of 1342 NGOs by the Planning Commission of India, Swikar Charitable ranked 281st in India and 7th among 50 in Gujarat.
               </li>
               <li>Towards institutionalization and better governance, set up gender, personnel, monitoring, and evaluation policies.</li>
             </ul>
@@ -169,7 +169,7 @@ function History() {
             </div>
             <ul className="md:w-3/4 text-gray-600 text-sm list-disc list-inside space-y-1">
               <li>RCH-Jeevandaan (Mother & Child Care Program) started in partnership with AMC and Counterpart International.</li>
-              <li>AMC & SAATH collaborated to run 191 Anganwadis managed and monitored by SMM in 25 wards.</li>
+              <li>AMC & Swikar Charitable collaborated to run 191 Anganwadis managed and monitored by SMM in 25 wards.</li>
               <li>Conceptualization of the Urmila Home Manager program.</li>
             </ul>
           </article>
@@ -181,7 +181,7 @@ function History() {
               <p className="text-gray-500 text-sm">Livelihood Focus</p>
             </div>
             <ul className="md:w-3/4 text-gray-600 text-sm list-disc list-inside space-y-1">
-              <li>Formulation and documentation of Saath’s Vision for the next ten years.</li>
+              <li>Formulation and documentation of Swikar Charitable’s Vision for the next ten years.</li>
               <li>Initiation of the Ek Mouka Udaan Project in Ahmedabad with AMC.</li>
               <li>Negotiated with AUDA to provide basic infrastructure and services in Sanklitnagar, in coordination with Sankalp-CBO.</li>
               <li>Implemented the Urmila Home Manager program.</li>
@@ -198,7 +198,7 @@ function History() {
               <p className="text-gray-500 text-sm">Institutional Expansion & Recognition</p>
             </div>
             <ul className="md:w-3/4 text-gray-600 text-sm list-disc list-inside space-y-1">
-              <li>Registration of Saath Livelihoods Services as a Section 25 company.</li>
+              <li>Registration of Swikar Charitable Livelihoods Services as a Section 25 company.</li>
               <li>Renamed Ek Mouka Udaan to Umeed, supported by GUDM, and expanded to 8 districts in Gujarat through 55 centres.</li>
               <li>Established 4 Urban Resource Centers in Ahmedabad.</li>
             </ul>
@@ -228,7 +228,7 @@ function History() {
             <ul className="md:w-3/4 text-gray-600 text-sm list-disc list-inside space-y-1">
               <li>Launched Griha Pravesh, a program started to facilitate purchase of affordable houses.</li>
               <li>Rweaves brand created to promote Patola and Tangaliya artisans' work.</li>
-              <li>Merger of Cooperatives into the Saath Savings and Credit Cooperative Ltd.</li>
+              <li>Merger of Cooperatives into the Swikar Charitable Savings and Credit Cooperative Ltd.</li>
             </ul>
           </article>
 
@@ -241,7 +241,7 @@ function History() {
             </div>
             <ul className="md:w-3/4 text-gray-600 text-sm list-disc list-inside space-y-1">
               <li>Rajendra Joshi retires from executive functions.</li>
-              <li>Ms. Keren Nazareth appointed as an Executive Director and Mr. Niraj Jani as Associate Director of Saath.</li>
+              <li>Ms. Keren Nazareth appointed as an Executive Director and Mr. Niraj Jani as Associate Director of Swikar Charitable.</li>
               <li>Nirman – Skill building program for construction workers launched.</li>
             </ul>
           </article>
@@ -286,7 +286,7 @@ function History() {
             <ul className="md:w-3/4 text-gray-600 text-sm list-disc list-inside space-y-1">
               <li>Certificate of Appreciation under HUDCO Award.</li>
               <li>Leadership Award, 2018-19 from Gujarat CSR received. Inspire Award, 2018-19 received.</li>
-              <li>SROI Analysis conducted for Saath Interventions.</li>
+              <li>SROI Analysis conducted for Swikar Charitable Interventions.</li>
             </ul>
           </article>
 
@@ -298,7 +298,7 @@ function History() {
               <p className="text-gray-500 text-sm">30 Years Journey Celebration</p>
             </div>
             <ul className="md:w-3/4 text-gray-600 text-sm list-disc list-inside space-y-1">
-              <li>Saath initiated the set-up of Rweaves – A studio for Rural Art Weavers in Ahmedabad.</li>
+              <li>Swikar Charitable initiated the set-up of Rweaves – A studio for Rural Art Weavers in Ahmedabad.</li>
               <li>Mehnat Manzil (Museum of Work) inaugurated in collaboration with Conflictorium.</li>
               <li>“SMART CITIES – BREAKING THE POVERTY BARRIER” – book launched by Mr. Rajendra Joshi.</li>
             </ul>
@@ -316,8 +316,8 @@ function History() {
               <li>Free reusable sanitary pad kits distributed to 12000+ schoolgirls in collaboration with TGB Charity and Unipads.</li>
               <li>A community-led intervention for COVID-19 response initiated under UNICEF.</li>
               <li>SAMAGRA Project initiated in collaboration with USAID and PSI.</li>
-              <li>Saath partnered with ElderAid to provide end-to-end services for senior citizens in Ahmedabad.</li>
-              <li>Saath Facilitators Pvt. Ltd. website launched.</li>
+              <li>Swikar Charitable partnered with ElderAid to provide end-to-end services for senior citizens in Ahmedabad.</li>
+              <li>Swikar Charitable Facilitators Pvt. Ltd. website launched.</li>
             </ul>
           </article>
 

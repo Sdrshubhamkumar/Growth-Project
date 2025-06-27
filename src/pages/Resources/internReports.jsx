@@ -1,4 +1,19 @@
 import React from "react";
+import PriyaImg from "../../assets/intern photo1.jpg";
+import RohanImg from "../../assets/intern photo2.jpg";
+import NehaImg from "../../assets/intern photo3.png";
+import AdityaImg from "../../assets/intern photo4.png";
+import MeeraImg from "../../assets/intern photo5.jpg";
+import ArjunImg from "../../assets/intern photo6.jpg";
+
+const reports = [
+            { name: "Priya Shah", topic: "Understanding Urban Poverty – A Field Experience", year: "Summer 2024" ,image: PriyaImg },
+            { name: "Rohan Mehta", topic: "Women Empowerment through Microfinance", year: "Winter 2023", image: RohanImg  },
+            { name: "Neha Patel", topic: "Sustainable Sanitation in Urban Slums", year: "Summer 2023", image: NehaImg },
+            { name: "Aditya Rao", topic: "Education Access through Digital Tools", year: "Fall 2022", image: AdityaImg },
+            { name: "Meera Singh", topic: "Nutrition & Health in Low-Income Communities", year: "Winter 2022", image: MeeraImg },
+            { name: "Arjun Desai", topic: "Youth Employment Trends & Solutions", year: "Spring 2021", image: ArjunImg },
+];
 
 const InternReports = () => {
   return (
@@ -8,7 +23,7 @@ const InternReports = () => {
         <div className="container mx-auto px-6">
           <h1 className="text-4xl font-bold">Intern Reports</h1>
           <p className="text-lg mt-2">
-            Insights and experiences from our interns – showcasing learning, impact, and growth at SAATH.
+            Insights and experiences from our interns – showcasing learning, impact, and growth at Swikar Charitable.
           </p>
         </div>
       </header>
@@ -20,7 +35,7 @@ const InternReports = () => {
                             className="text-blue-600 hover:text-blue-800" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            href="https://saath.org/"
+                            href="https://Swikar Charitable.org/"
                         >
                             Home
                         </a> » Intern Reports
@@ -48,16 +63,9 @@ const InternReports = () => {
       {/* Reports Grid */}
       <section className="container mx-auto px-6 py-12">
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {[
-            { name: "Priya Shah", topic: "Understanding Urban Poverty – A Field Experience", year: "Summer 2024" },
-            { name: "Rohan Mehta", topic: "Women Empowerment through Microfinance", year: "Winter 2023" },
-            { name: "Neha Patel", topic: "Sustainable Sanitation in Urban Slums", year: "Summer 2023" },
-            { name: "Aditya Rao", topic: "Education Access through Digital Tools", year: "Fall 2022" },
-            { name: "Meera Singh", topic: "Nutrition & Health in Low-Income Communities", year: "Winter 2022" },
-            { name: "Arjun Desai", topic: "Youth Employment Trends & Solutions", year: "Spring 2021" },
-          ].map((report, index) => (
+          {reports.map((report, index) => (
             <div key={index} className="bg-white border shadow-md rounded-lg p-6 hover:scale-105 transition">
-              <img src="https://via.placeholder.com/150" alt="Intern Photo" className="w-full rounded-md" />
+              <img src={report.image} alt={`${report.name} Photo`} className="w-full rounded-md" />
               <div className="mt-4">
                 <h3 className="text-xl font-bold">{report.name}</h3>
                 <p className="italic text-gray-600">{report.topic}</p>
