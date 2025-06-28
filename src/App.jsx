@@ -3,33 +3,30 @@ import Home from './pages/home/home';
 import Profile from './pages/about/profile';
 import Impact from './pages/Impact/impact';
 import Navbar from './components/Navbar/Navbar'; // Use consistent capitalization
-
 // About pages
-
 import History from './pages/about/history';
-import BoardOfTrustees from './pages/about/boardOfTrustees';
+// import BoardOfTrustees from './pages/about/boardOfTrustees';
 import Governance from './pages/about/governance';
-import SaathInstitutionalPartners from './pages/about/saathInstitutionalPartners';
-
+import SwikarCharitableInstitutionalPartners from './pages/about/SwikarCharitableInstitutionalPartners';
 // Other pages
-import FundersAndPartners from './pages/fundersAndPartners/fundersAndPartners';
+// import FundersAndPartners from './pages/FundersAndPartners/fundersAndPartners';
+// import Publications from './pages/Resources/Publications';
+
+import AnnualReports from './pages/Resources/AnnualReports';
 
 
-
-
-import Publications from './pages/Resources/Publications';
-import AnnualReports from './pages/Resources/annualReports';
 import InternReports from './pages/Resources/internReports';
 
 import CSR from './pages/csr/csr'; 
-
 import Innovations from './pages/innovations/innovations';
-
 // Sector pages
 import Education from './pages/Sectors/Education';
 import Health from './pages/Sectors/Health';
-import LivelyHood from './pages/Sectors/LivelyHoods';
-import UrbanGovernance from './pages/Sectors/UrbanGovernance';
+import LivelyHoods from './pages/Sectors/LivelyHoods';
+// import UrbanGovernance from './pages/Sectors/UrbanGovernance';
+import GetInvolved from './pages/GetInvolved/GetInvolved';
+// import Awards from './pages/Awards/Awards';
+
 
 
 
@@ -41,30 +38,22 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/history" element={<History />} />
-        <Route path="/board-of-trustees" element={<BoardOfTrustees />} />
+        {/* <Route path="/board-of-trustees" element={<BoardOfTrustees />} /> */}
         <Route path="/governance" element={<Governance />} />
-        <Route path="/saath-institutional-partners" element={<SaathInstitutionalPartners />} />
-
-        <Route path="/Funders&Partners" element={<FundersAndPartners />} />
-        <Route path="/Publications" element={<Publications />} />
-        <Route path="/Annual-reports" element={<AnnualReports />} />
+        <Route path="/Swikar-Charitable-Institutional-Partners" element={<SwikarCharitableInstitutionalPartners/>} />
+        {/* <Route path="/founders-&-partners" element={<FundersAndPartners />} /> */}
+        {/* <Route path="/publications" element={<Publications />} /> */}
+        <Route path="/annual-reports" element={<AnnualReports />} />
         <Route path="/impact" element={<Impact />} />
-
         <Route path="/intern-reports" element={<InternReports />} />
-        {/* Add more routes as needed */}
-
-        
-
         <Route path="/csr" element={<CSR />} />
-        
         <Route path="/innovations" element={<Innovations />} />
-        
         <Route path="/education" element={<Education />} />
         <Route path="/health" element={<Health />} />
-        <Route path="/livelyhood" element={<LivelyHood />} />
-        <Route path="/urbangovernance" element={<UrbanGovernance />} />
-
-
+        <Route path="/livelyhoods" element={<LivelyHoods />} />
+        {/* <Route path="/urban-governance" element={<UrbanGovernance />} /> */}
+        <Route path = "/get-involved"element={<GetInvolved/>}/>
+        {/* <Route path = "/Awards"element={<Awards/>}/> */}
       </Routes>
     </Router>
   );

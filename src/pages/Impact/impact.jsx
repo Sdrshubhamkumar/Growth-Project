@@ -7,7 +7,7 @@ import image4 from '../../../src/assets/impact/img4.png'
 function impact() {
   return (
     <div>
-      <div className="header pt-5 text-center h-25 w-full bg-[#6a5f97]">
+      <div className="header pt-5 pb-5 text-center h-25 w-full bg-[#6a5f97]">
         <h1 className='text-4xl font-bold text-white'>Impact</h1>
       </div>
       <div className="text-container text-[#838383] p-10 pt-15">
