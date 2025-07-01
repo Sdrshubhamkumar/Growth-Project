@@ -18,7 +18,7 @@ function Navbar() {
         </div> 
 
         {/* Contact + Button Section */} 
-        <div className="navbar-list flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-0"> 
+        <div className="navbar-list flex flex-col sm:flex-row left-[-15px] items-start sm:items-center gap-4 sm:gap-0"> 
           <div className="group flex items-center sm:mr-6"> 
             <img className="mr-2" src={phone} alt="phone" /> 
             <p>7676651025</p> 
@@ -34,9 +34,9 @@ function Navbar() {
           </div> 
         </div> 
 
-        <div className="absolute bottom-6 z-50 max-[1025px]:inline-block hidden max-lg:relative max-lg:top-12 max-lg:left-0"> 
+        <div className="absolute bottom-6  z-50 max-[1025px]:inline-block hidden max-lg:relative max-lg:top-16 max-lg:left-0"> 
             <label htmlFor="menu-toggle" className="cursor-pointer"> 
-              <img src={menu} alt="menu" className="h-8 w-8" /> 
+              <img src={menu} alt="menu" className="h-8 w-12 max-[1025px]:w-8 mt-[25px] relative right-8"/> 
             </label> 
         </div> 
       </div> 
@@ -65,7 +65,7 @@ function Navbar() {
           <input type="checkbox" id="menu-toggle" className="hidden peer" /> 
 
           {/* Slide-out Side Drawer */} 
-          <div className="fixed top-0 left-0 h-full w-84 bg-black text-white overflow-y-auto transform -translate-x-full peer-checked:translate-x-0 transition-transform duration-300 ease-in-out z-40 p-6"> 
+          <div className="fixed top-0 left-0 h-full w-9/10 bg-black text-white overflow-y-auto transform -translate-x-full peer-checked:translate-x-0 transition-transform duration-300 ease-in-out z-40 p-6"> 
             <div className="flex justify-end mb-6"> 
               <label htmlFor="menu-toggle" className="cursor-pointer"> 
                 <img src={close} alt="close" className="h-6 w-6" /> 
@@ -99,7 +99,6 @@ function Navbar() {
                 children={[
                   { label: 'AnnualReports', path: '/annual-reports' }, 
                   { label: 'Publication', path: '/publications' }, 
-
                   { label: 'Intern Reports', path: '/intern-reports' }, 
                 ]} 
               /> 
