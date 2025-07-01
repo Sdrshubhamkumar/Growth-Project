@@ -1,13 +1,20 @@
-import React from 'react';
+
+import React, { useState } from 'react';
 import logo from '../../assets/logo.png';
 import phone from '../../assets/phone.png';
 import email from '../../assets/email.png';
 import menu from '../../assets/menu.png';
 import close from '../../assets/close.png';
+import qrCode from '../../assets/qr-code.jpg';
 import ListItem from './nav-list-item/navListItem';
 import MobileListItem from './nav-list-item/navListIItem(mobile)';
 
 function Navbar() {
+  const [showPopup, setShowPopup] = useState(false);
+  const handlePopupClose = () => setShowPopup(false);
+  const handlePopupClick = (e) => e.stopPropagation();
+
+
   return ( 
     <div className="nav-container sticky top-0 z-50"> 
       {/* Upper Navigation */} 
@@ -28,7 +35,12 @@ function Navbar() {
             <p>Info@swikarcharitabletrust.org</p> 
           </div> 
           <div> 
+
+            <button className="h-12 w-35 bg-[#eb2525] text-sm text-white rounded-sm cursor-pointer"
+                    onClick={() => setShowPopup(true)}> 
+
             <button className="h-12 w-[125px] bg-[#eb2525] text-sm text-white rounded-sm cursor-pointer"> 
+
               DONATE NOW 
             </button> 
           </div> 
@@ -116,6 +128,32 @@ function Navbar() {
           </div> 
         </div> 
       </div> 
+      {showPopup && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+          onClick={handlePopupClose}
+        >
+          <div
+            className="bg-white p-6 rounded-lg relative w-[300px] sm:w-[400px]"
+            onClick={handlePopupClick}
+          >
+            <button
+              className="absolute top-2 right-3 text-gray-500 hover:text-red-600 text-2xl font-bold"
+              onClick={handlePopupClose}
+              aria-label="Close popup"
+            >
+              ×
+            </button>
+
+            <h2 className="text-lg font-semibold mb-4 text-center">Scan & Pay</h2>
+            <img src={qrCode} alt="QR Code" className="w-full h-auto" />
+            <p className="text-center mt-2 text-sm text-gray-600">
+              UPI ID: <strong>swikarcharitable11131@sbi</strong>
+            </p>
+          </div>
+        </div>
+      )}
+
     </div> 
   ); 
 } 
