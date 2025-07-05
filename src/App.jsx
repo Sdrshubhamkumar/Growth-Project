@@ -8,7 +8,7 @@ import History from './pages/about/history';
 // import BoardOfTrustees from './pages/about/boardOfTrustees';
 import Governance from './pages/about/governance';
 import SwikarCharitableInstitutionalPartners from './pages/about/SwikarCharitableInstitutionalPartners';
-// Other pages
+// Other pages 
 // import FundersAndPartners from './pages/FundersAndPartners/fundersAndPartners';
 // import Publications from './pages/Resources/Publications';
 
@@ -23,7 +23,9 @@ import Innovations from './pages/innovations/innovations';
 import Education from './pages/Sectors/Education';
 import Health from './pages/Sectors/Health';
 import LivelyHoods from './pages/Sectors/LivelyHoods';
-// import UrbanGovernance from './pages/Sectors/UrbanGovernance';
+// import Divyang from './pages/Sectors/Divyang';
+import Environment from './pages/Sectors/Environment';
+import Divyang from './pages/Sectors/Divyang';
 import GetInvolved from './pages/GetInvolved/GetInvolved';
 // import Awards from './pages/Awards/Awards';
 
@@ -51,7 +53,8 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/health" element={<Health />} />
         <Route path="/livelyhoods" element={<LivelyHoods />} />
-        {/* <Route path="/urban-governance" element={<UrbanGovernance />} /> */}
+        <Route path= "/divyang" element = {<Divyang/>}/>
+        <Route path="/environment" element={<Environment />} />
         <Route path = "/get-involved"element={<GetInvolved/>}/>
         {/* <Route path = "/Awards"element={<Awards/>}/> */}
       </Routes>
