@@ -37,7 +37,7 @@ function Navbar() {
           <div> 
 
             <button className="h-12 w-35 bg-[#eb2525] text-sm text-white rounded-sm cursor-pointer"
-                    onClick={() => setShowPopup(true)}> 
+                    onClick={() => setShowPopup(true)}/> 
 
             <button className="h-12 w-[125px] bg-[#eb2525] text-sm text-white rounded-sm cursor-pointer"> 
 
@@ -60,7 +60,7 @@ function Navbar() {
           <ListItem text="Home" /> 
           <ListItem text="About" children={['Profile', 'Board of Trustees','Governance','History','Swikar Charitable Institutional Partners']} /> 
           <ListItem text="Founders & Partners" /> 
-          <ListItem text="Sectors" children={['Education', 'Health', 'LivelyHoods', 'Urban Governance']} /> 
+          <ListItem text="Sectors" children={['Education', 'Health', 'LivelyHoods', 'divyang', 'environment']} /> 
           <ListItem text="Awards" /> 
 
           <ListItem text="Resources" children={['Annual Reports', 'Publications', 'Intern Reports']} /> 
@@ -102,7 +102,8 @@ function Navbar() {
                   { label: 'Education', path: '/education' }, 
                   { label: 'Health', path: '/health' }, 
                   { label: 'LivelyHoods', path: '/livelyHoods' }, 
-                  { label: 'Urban Governance', path: '/urban-governance' }, 
+                  { label: 'Divyang', path: '/divyang' }, 
+                  { label: 'Environment', path: '/environment' }, 
                 ]} 
               /> 
               <MobileListItem text="Awards" /> 

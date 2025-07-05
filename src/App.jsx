@@ -24,6 +24,8 @@ import Education from './pages/Sectors/Education';
 import Health from './pages/Sectors/Health';
 import LivelyHoods from './pages/Sectors/LivelyHoods';
 // import UrbanGovernance from './pages/Sectors/UrbanGovernance';
+import Divyang from './pages/Sectors/Divyang';
+import Environment from './pages/Sectors/Environment';
 import GetInvolved from './pages/GetInvolved/GetInvolved';
 // import Awards from './pages/Awards/Awards';
 
@@ -52,6 +54,8 @@ function App() {
         <Route path="/health" element={<Health />} />
         <Route path="/livelyhoods" element={<LivelyHoods />} />
         {/* <Route path="/urban-governance" element={<UrbanGovernance />} /> */}
+        <Route path= "/divyang" element = {<Divyang/>}/>
+        <Route path="/environment" element={<Environment />} />
         <Route path = "/get-involved"element={<GetInvolved/>}/>
         {/* <Route path = "/Awards"element={<Awards/>}/> */}
       </Routes>
