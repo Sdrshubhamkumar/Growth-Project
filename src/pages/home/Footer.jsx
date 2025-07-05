@@ -191,7 +191,7 @@ const Footer = () => {
             <div className="flex items-start text-sm text-gray-700">
               <i className="fa fa-globe text-xl mr-3 mt-1 text-gray-500"></i>
               <p>
-                Swikar Charitable Charitable Trust<br />
+                Swikar Charitable Trust<br />
                 0/102, Nandanvan V,<br />
                 Nr. Prernatirth Derasar,<br />
                 Jodhpur Tekra, Satellite,<br />
@@ -200,20 +200,20 @@ const Footer = () => {
             </div>
             <div className="flex items-center text-sm">
               <i className="fa fa-envelope text-xl mr-3 text-gray-500"></i>
-              <a href="mailto:mail@Swikar Charitable.org" className="text-blue-500">mail@Swikar Charitable.org</a>
+              <a href="mailto:mail@Swikar Charitable.org" className="text-blue-500">Info@swikarcharitabletrust.org</a>
             </div>
             <div className="flex items-center text-sm">
               <i className="fa fa-phone text-xl mr-3 text-gray-500"></i>
-              <span>+91-79-35164684</span>
+              <span>7676651025</span>
             </div>
-            <iframe
+            {/* <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3672.109864158185!2d72.517641!3d23.019738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc1e05ff4a246bd3!2sSwikar Charitable+Charitable+Trust!5e0!3m2!1sen!2s!4v1455538805452"
               className="w-full h-44 border-0 rounded"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Swikar Charitable Location"
-            ></iframe>
+            ></iframe> */}
           </div>
 
         </div>

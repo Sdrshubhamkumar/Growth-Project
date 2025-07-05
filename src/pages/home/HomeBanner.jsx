@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react';
-import SwikarWebsite2 from '../../assets/SwikarWebsite2.png';
-// import SwikarWebsite3 from '../../assets/SwikarWebsite3.png';
+// import SwikarWebsite2 from '../../assets/SwikarWebsite2.png';
+import bannerimg2 from '../../assets/bannerimg2.png';
 import HELPSUPPORTDAILYWEAGEARNERS4 from '../../assets/HELP_SUPPORT-DAILY-WAGE-EARNERS-4.png';
-import HELPSUPPORTDAILYWEAGEARNERS8 from '../../assets/HELP_SUPPORT-DAILY-WAGE-EARNERS-8.png';
+import bannerimg1 from '../../assets/bannerimg1.jpg';
 
 
 const HomeBanner = () => {
   const [index, setIndex] = useState(0);
 
   const data = [
-    SwikarWebsite2,
-    // SwikarWebsite3,
+    // SwikarWebsite2,
+    bannerimg2,
     HELPSUPPORTDAILYWEAGEARNERS4,
-    HELPSUPPORTDAILYWEAGEARNERS8
+    bannerimg1,
   ];
 
   const handleNext = () => {
