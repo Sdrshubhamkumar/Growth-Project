@@ -36,6 +36,7 @@ function Navbar() {
           </div> 
           <div> 
 
+
             <button className="h-12 w-35 bg-[#eb2525] text-sm text-white rounded-sm cursor-pointer"
                     onClick={() => setShowPopup(true)}/> 
 
@@ -43,6 +44,7 @@ function Navbar() {
 
               DONATE NOW 
             </button> 
+
           </div> 
         </div> 
 
