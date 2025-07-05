@@ -192,10 +192,10 @@ const Footer = () => {
               <i className="fa fa-globe text-xl mr-3 mt-1 text-gray-500"></i>
               <p>
                 Swikar Charitable Trust<br />
-                0/102, Nandanvan V,<br />
-                Nr. Prernatirth Derasar,<br />
-                Jodhpur Tekra, Satellite,<br />
-                Ahmedabad-380015, Gujarat, India
+               #113/c, 1stage 4th cross,<br />
+                Besillu Maramma,<br />
+                Temple, Gangothri Layout,<br />
+               Mysore, 570009.
               </p>
             </div>
             <div className="flex items-center text-sm">
