@@ -62,7 +62,7 @@ function Navbar() {
           {/* <ListItem text="Founders & Partners" /> */}
           <ListItem text="Sectors" children={['Education', 'Health', 'LivelyHoods', 'divyang', 'environment']} />
           {/* <ListItem text="Awards" /> */}
-          <ListItem text="Resources" children={['Annual Reports', 'Publications', 'Intern Reports']} />
+          <ListItem text="Resources" children={['Annual Reports', 'Intern Reports']} />
           <ListItem text="Get Involved" />
           <ListItem text="CSR" />
           <ListItem text="Innovations" />
@@ -88,7 +88,7 @@ function Navbar() {
                   { label: 'History', path: '/history' },
                   // { label: 'Board of Trustees', path: '/board-of-trustees' },
                   { label: 'Governance', path: '/governance' },
-                  { label: 'Swikar Charitable Institutional Partners', path: '/Swikar Charitable Institutional Partners' },
+                  { label: 'Swikar Charitable Institutional Partners', path: '/Swikar-Charitable-Institutional-Partners' },
                 ]}
               />
               {/* <MobileListItem text="Founders & Partners" /> */}
@@ -107,11 +107,11 @@ function Navbar() {
                 text="Resources"
                 children={[
                   { label: 'AnnualReports', path: '/annual-reports' },
-                  { label: 'Publication', path: '/publications' },
-                  { label: 'Intern Reports', path: '/intern-reports' },
+                  // { label: 'Publications', path: '/Publications' },
+                  { label: 'Intern Reports', path: '/Intern-Reports' },
                 ]}
               />
-              <MobileListItem text="GetInvolved" />
+              <MobileListItem text="Get Involved" />
               <MobileListItem text="CSR" />
               <MobileListItem text="Innovations" />
               <MobileListItem text="Impact" />
