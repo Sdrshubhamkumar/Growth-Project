@@ -86,12 +86,12 @@ function Navbar() {
                 children={[
                   { label: 'Profile', path: '/profile' },
                   { label: 'History', path: '/history' },
-                  { label: 'Board of Trustees', path: '/board-of-trustees' },
+                  // { label: 'Board of Trustees', path: '/board-of-trustees' },
                   { label: 'Governance', path: '/governance' },
                   { label: 'Swikar Charitable Institutional Partners', path: '/Swikar Charitable Institutional Partners' },
                 ]}
               />
-              <MobileListItem text="Founders & Partners" />
+              {/* <MobileListItem text="Founders & Partners" /> */}
               <MobileListItem
                 text="Sectors"
                 children={[
@@ -102,7 +102,7 @@ function Navbar() {
                   { label: 'Environment', path: '/environment' },
                 ]}
               />
-              <MobileListItem text="Awards" />
+              {/* <MobileListItem text="Awards" /> */}
               <MobileListItem
                 text="Resources"
                 children={[
