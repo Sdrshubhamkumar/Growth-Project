@@ -4,6 +4,7 @@ import image2 from '../../assets/innovation/img2.png'
 import image3 from '../../assets/innovation/img3.png'
 
 function innovations() {
+    {document.title = "Innovations | Swikar Charitable"}
     return (
         <div className='ml-[-30px]'>
             <div className="header pt-5 pb-5 text-center h-25 w-full bg-[#6a5f97]">

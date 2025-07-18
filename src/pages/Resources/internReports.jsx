@@ -16,6 +16,7 @@ const reports = [
 ];
 
 const InternReports = () => {
+  {document.title = "Intern Reports | Swikar Charitable"}
   return (
     <div className="bg-gray-100">
       {/* Hero Section */}

@@ -2,6 +2,7 @@ import React from 'react'
 import organogram from '../../assets/Organogram.jpg';
 
 function Governance() {
+    {document.title = "Governance | Swikar Charitable"}
   return (
     
          <div className="governance">

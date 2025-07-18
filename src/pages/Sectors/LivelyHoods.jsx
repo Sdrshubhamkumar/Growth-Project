@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function LivelyHoods() {
+  {document.title = "LivelyHood | Swikar Charitable"}
   return (
     <>
     

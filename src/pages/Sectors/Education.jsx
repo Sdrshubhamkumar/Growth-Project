@@ -2,6 +2,7 @@ import React from "react";
 import ay from '../../assets/ay.jpg';
 
 export default function Education() {
+  {document.title = "Education | Swikar Charitable"}
   return (
     <>
       <div className="header pt-5 text-center h-25 w-full bg-[#6a5f97]">

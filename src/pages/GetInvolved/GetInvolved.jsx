@@ -4,6 +4,7 @@ import ab from '../../assets/ab.jpg';
 import img2 from '../../assets/img2.jpg';
 
 const GetInvolved = () => {
+  {document.title = "Get Involved | Swikar Charitable"}
   return (
     <div className="bg-gray-50 py-12 px-4 md:px-12 lg:px-24">
       <h1 className="text-4xl font-bold text-center text-purple-800 mb-12">

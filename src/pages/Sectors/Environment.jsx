@@ -2,6 +2,7 @@ import React from "react";
 import environment from '../../assets/environment.jpg'; // Make sure the path is correct
 
 export default function Environment() {
+  {document.title = "Environment | Swikar Charitable"}
   return (
     <>
       {/* Header */}

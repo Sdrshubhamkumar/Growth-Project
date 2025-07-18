@@ -6,6 +6,7 @@ import Footer from './Footer'
 
 
 function Home() {
+    // {document.title = "Home | Swikar Charitable"}
   return (
     <div>
         <HomeBanner/>

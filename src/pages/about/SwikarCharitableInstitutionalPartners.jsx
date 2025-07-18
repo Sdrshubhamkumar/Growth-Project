@@ -5,6 +5,7 @@ import Picture3 from '../../assets/Untitled-design-3-1.jpg';
 import Picture4 from '../../assets/Swikar Charitable-Facilitators.png';
 
 function SwikarCharitableInstitutionalPartners() {
+    {document.title = "Swikar Charitable Institutional Partners | Swikar Charitable"}
   return (
     
         <div className="Swikar Charitableinstitutionalpartners">

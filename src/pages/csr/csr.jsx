@@ -1,6 +1,7 @@
 import image from "../../assets/csr/csrImg.png";
 
 function csr() {
+  {document.title = "CSR | Swikar Charitable"}
   return (
     <div className="ml-[-30px]">
       <div className="header pt-5 pb-5 pl-10 text-center h-25 w-full bg-[#6a5f97]">

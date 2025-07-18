@@ -2,6 +2,7 @@ import React from 'react';
 import divyangImage from '../../assets/divyang.jpg'; // Adjust path based on your folder
 
 const Divyang = () => {
+  {document.title = "Divyang | Swikar Charitable"}
   return (
     <>
    

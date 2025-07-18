@@ -1,6 +1,7 @@
 import React from 'react'
 
 function History() {
+    {document.title = "History | Swikar Charitable"}
   return (
     <div className="history">
       {/* Heading Section */}

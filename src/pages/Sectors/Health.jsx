@@ -2,6 +2,7 @@ import React from "react";
 import ay2 from '../../assets/ay2.jpg';
 
 export default function HealthEnvironmentCard() {
+  {document.title = "Health | Swikar Charitable"}
   return ( 
     <>
       {/* Header */}

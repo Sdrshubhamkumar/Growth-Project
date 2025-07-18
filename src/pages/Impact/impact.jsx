@@ -5,6 +5,7 @@ import image3 from '../../../src/assets/impact/img3.png'
 import image4 from '../../../src/assets/impact/img4.png'
 
 function impact() {
+  {document.title = "Impact | Swikar Charitable"}
   return (
     <div>
       <div className="header pt-5 pb-5 text-center h-25 w-full bg-[#6a5f97]">

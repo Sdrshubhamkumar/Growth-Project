@@ -40,6 +40,7 @@ const reports = [
 ];
 
 const AnnualReports = () => {
+  {document.title = "Annual Reports | Swikar Charitable"}
   return (
     <div className="AnnualReports">
       <div className="bg-[#5A4E8C] text-white text-center py-6">
